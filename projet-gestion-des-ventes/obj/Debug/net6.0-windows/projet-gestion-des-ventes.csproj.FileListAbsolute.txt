@@ -16,3 +16,22 @@ C:\Users\Karim\source\C#\projet-gestion-des-ventes\projet-gestion-des-ventes\obj
 C:\Users\Karim\source\C#\projet-gestion-des-ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\ref\projet-gestion-des-ventes.dll
 C:\Users\Karim\source\C#\projet-gestion-des-ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.FormLog.resources
 C:\Users\Karim\source\C#\projet-gestion-des-ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.Properties.Resources.resources
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\bin\Debug\net6.0-windows\projet-gestion-des-ventes.exe
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\bin\Debug\net6.0-windows\projet-gestion-des-ventes.deps.json
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\bin\Debug\net6.0-windows\projet-gestion-des-ventes.runtimeconfig.json
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\bin\Debug\net6.0-windows\projet-gestion-des-ventes.dll
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\bin\Debug\net6.0-windows\projet-gestion-des-ventes.pdb
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet-gestion-des-ventes.csproj.AssemblyReference.cache
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.dashboard.resources
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.FormLog.resources
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.Properties.Resources.resources
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet-gestion-des-ventes.csproj.GenerateResource.cache
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet-gestion-des-ventes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet-gestion-des-ventes.AssemblyInfoInputs.cache
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet-gestion-des-ventes.AssemblyInfo.cs
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet-gestion-des-ventes.csproj.CoreCompileInputs.cache
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet-gestion-des-ventes.dll
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\refint\projet-gestion-des-ventes.dll
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet-gestion-des-ventes.pdb
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet-gestion-des-ventes.genruntimeconfig.cache
+C:\Users\Karim\source\C#\projet-gestion-des-ventes - Copy\projet-gestion-des-ventes\obj\Debug\net6.0-windows\ref\projet-gestion-des-ventes.dll
