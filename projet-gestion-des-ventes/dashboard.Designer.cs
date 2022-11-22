@@ -41,6 +41,7 @@
             this.panelLog.Size = new System.Drawing.Size(369, 735);
             this.panelLog.TabIndex = 1;
             this.panelLog.TabStop = true;
+            this.panelLog.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLog_Paint);
             // 
             // panel1
             // 
@@ -49,7 +50,7 @@
             this.panel1.Size = new System.Drawing.Size(912, 37);
             this.panel1.TabIndex = 2;
             // 
-            // produit
+            // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -57,7 +58,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelLog);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "produit";
+            this.Name = "dashboard";
             this.Text = "produit";
             this.ResumeLayout(false);
 

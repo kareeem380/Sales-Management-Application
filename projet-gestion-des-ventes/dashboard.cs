@@ -16,5 +16,10 @@ namespace projet_gestion_des_ventes
         {
             InitializeComponent();
         }
+
+        private void panelLog_Paint(object sender, PaintEventArgs e)
+        {
+            //test test
+        }
     }
 }
