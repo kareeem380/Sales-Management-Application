@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Karim\\source\\C#\\Projet-Gestion-des-ventes\\projet-gestion-des-ventes\\projet-gestion-des-ventes.csproj",
+      "projectUniqueName": "C:\\Users\\Karim\\source\\C#\\Gestion des ventes\\projet-gestion-des-ventes\\projet-gestion-des-ventes.csproj",
       "projectName": "projet-gestion-des-ventes",
-      "projectPath": "C:\\Users\\Karim\\source\\C#\\Projet-Gestion-des-ventes\\projet-gestion-des-ventes\\projet-gestion-des-ventes.csproj",
+      "projectPath": "C:\\Users\\Karim\\source\\C#\\Gestion des ventes\\projet-gestion-des-ventes\\projet-gestion-des-ventes.csproj",
       "packagesPath": "C:\\Users\\Karim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Karim\\source\\C#\\Projet-Gestion-des-ventes\\projet-gestion-des-ventes\\obj\\",
+      "outputPath": "C:\\Users\\Karim\\source\\C#\\Gestion des ventes\\projet-gestion-des-ventes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
