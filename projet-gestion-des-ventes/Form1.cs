@@ -51,5 +51,30 @@ namespace projet_gestion_des_ventes
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnLog_Click(object sender, EventArgs e)
+        {
+            dashboard f2 = new dashboard();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+
+            this.Hide();
+        }
+
+        private void textPwd_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
