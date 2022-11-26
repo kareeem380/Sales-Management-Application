@@ -12,6 +12,7 @@ namespace projet_gestion_des_ventes
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new FormLog());
+
         }
     }
 }

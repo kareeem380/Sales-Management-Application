@@ -1,3 +1,5 @@
+using System.Runtime.InteropServices;
+
 namespace projet_gestion_des_ventes
 {
     public partial class FormLog : Form
@@ -5,7 +7,22 @@ namespace projet_gestion_des_ventes
         public FormLog()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None;
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
         }
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        private static extern IntPtr CreateRoundRectRgn
+   (
+       int nLeftRect,
+       int nTopRect,
+       int nRightRect,
+       int nBottomRect,
+       int nWidthEllipse,
+       int nHeightEllipse
+   );
+
+
+       
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -73,6 +90,11 @@ namespace projet_gestion_des_ventes
         }
 
         private void txtEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
         {
 
         }

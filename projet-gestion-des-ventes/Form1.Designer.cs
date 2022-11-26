@@ -159,9 +159,9 @@
             this.label1.Location = new System.Drawing.Point(563, 718);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(429, 30);
+            this.label1.Size = new System.Drawing.Size(426, 30);
             this.label1.TabIndex = 8;
-            this.label1.Text = "@ Copyright 2022 Techno, Inc, All Rights Reserved";
+            this.label1.Text = "© Copyright 2022 Techno, Inc, All Rights Reserved";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // pictureBox1
@@ -173,6 +173,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
             // button2
             // 
@@ -184,9 +185,9 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
-            this.button2.Location = new System.Drawing.Point(785, 550);
+            this.button2.Location = new System.Drawing.Point(777, 503);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(235, 65);
+            this.button2.Size = new System.Drawing.Size(235, 166);
             this.button2.TabIndex = 6;
             this.button2.Text = "Mot de passe oublié ?";
             this.button2.UseVisualStyleBackColor = false;
@@ -194,7 +195,8 @@
             // FormLog
             // 
             this.AllowDrop = true;
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.CancelButton = this.button1;

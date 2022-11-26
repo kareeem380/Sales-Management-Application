@@ -54,3 +54,6 @@ C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\obj\Debug\
 C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet-gestion-des-ventes.pdb
 C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet-gestion-des-ventes.genruntimeconfig.cache
 C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\ref\projet-gestion-des-ventes.dll
+C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.departements.resources
+C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.clients.resources
+C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.factures.resources
