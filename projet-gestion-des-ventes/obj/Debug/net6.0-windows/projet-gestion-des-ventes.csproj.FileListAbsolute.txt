@@ -57,3 +57,6 @@ C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\obj\Debug\
 C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.departements.resources
 C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.clients.resources
 C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.factures.resources
+C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.test.resources
+C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\Karim\source\C#\Gestion des ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet-gestion-des-ventes.csproj.CopyComplete

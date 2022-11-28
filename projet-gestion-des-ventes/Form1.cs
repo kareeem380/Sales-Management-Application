@@ -76,12 +76,7 @@ namespace projet_gestion_des_ventes
 
         private void btnLog_Click(object sender, EventArgs e)
         {
-            dashboard f2 = new dashboard();
-            f2.AllowDrop = true;
-            f2.Show();
-            f2.BringToFront();
-
-            this.Hide();
+           
         }
 
         private void textPwd_TextChanged(object sender, EventArgs e)
@@ -95,6 +90,45 @@ namespace projet_gestion_des_ventes
         }
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+  
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            
+
+            
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2GradientTileButton1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            dashboard f2 = new dashboard();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+        }
+
+        private void guna2HtmlToolTip1_Popup(object sender, PopupEventArgs e)
         {
 
         }

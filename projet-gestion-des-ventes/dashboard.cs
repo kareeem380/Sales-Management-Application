@@ -117,15 +117,45 @@ namespace projet_gestion_des_ventes
 
         private void button5_Click_1(object sender, EventArgs e)
         {
-            clients f2 = new clients();
+            
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click_3(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormLog f2 = new FormLog();
             f2.AllowDrop = true;
             f2.Show();
             f2.BringToFront();
 
-            this.Hide();
+            
         }
 
-        private void button3_Click_1(object sender, EventArgs e)
+        private void button1_Click_4(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormLog f2 = new FormLog();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+        }
+
+        private void guna2ContainerControl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
         {
             departements f2 = new departements();
             f2.AllowDrop = true;
@@ -135,7 +165,17 @@ namespace projet_gestion_des_ventes
             this.Hide();
         }
 
-        private void button1_Click_3(object sender, EventArgs e)
+        private void client_Click(object sender, EventArgs e)
+        {
+            clients f2 = new clients();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+
+            this.Hide();
+        }
+
+        private void facture_Click(object sender, EventArgs e)
         {
             factures f2 = new factures();
             f2.AllowDrop = true;
@@ -145,14 +185,19 @@ namespace projet_gestion_des_ventes
             this.Hide();
         }
 
-        private void button7_Click_1(object sender, EventArgs e)
+        private void guna2Button3_Click(object sender, EventArgs e)
         {
-            FormLog f2 = new FormLog();
-            f2.AllowDrop = true;
-            f2.Show();
-            f2.BringToFront();
 
-            this.Hide();
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
