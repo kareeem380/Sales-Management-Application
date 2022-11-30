@@ -103,9 +103,9 @@ namespace projet_gestion_des_ventes.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap clients {
+        internal static System.Drawing.Bitmap clientss {
             get {
-                object obj = ResourceManager.GetObject("clients", resourceCulture);
+                object obj = ResourceManager.GetObject("clientss", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

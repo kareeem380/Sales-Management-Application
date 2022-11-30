@@ -76,7 +76,6 @@
             // 
             this.facture.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.facture.BorderRadius = 27;
-            this.facture.Checked = true;
             this.facture.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.facture.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.facture.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -84,17 +83,16 @@
             this.facture.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.facture.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.facture.ForeColor = System.Drawing.Color.White;
-            this.facture.Image = global::projet_gestion_des_ventes.Properties.Resources.Ecommerce_14;
+            this.facture.Image = ((System.Drawing.Image)(resources.GetObject("facture.Image")));
             this.facture.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.facture.ImageOffset = new System.Drawing.Point(2, 0);
-            this.facture.ImageSize = new System.Drawing.Size(40, 40);
-            this.facture.Location = new System.Drawing.Point(22, 438);
-            this.facture.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.facture.MaximumSize = new System.Drawing.Size(284, 58);
-            this.facture.MinimumSize = new System.Drawing.Size(52, 58);
+            this.facture.ImageSize = new System.Drawing.Size(35, 35);
+            this.facture.Location = new System.Drawing.Point(25, 584);
+            this.facture.MaximumSize = new System.Drawing.Size(325, 77);
+            this.facture.MinimumSize = new System.Drawing.Size(59, 77);
             this.facture.Name = "facture";
-            this.facture.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
-            this.facture.Size = new System.Drawing.Size(284, 58);
+            this.facture.Padding = new System.Windows.Forms.Padding(21, 0, 0, 0);
+            this.facture.Size = new System.Drawing.Size(325, 77);
             this.facture.TabIndex = 7;
             this.facture.Text = "         Facturation";
             this.facture.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -111,17 +109,16 @@
             this.client.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.client.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.client.ForeColor = System.Drawing.Color.White;
-            this.client.Image = global::projet_gestion_des_ventes.Properties.Resources.clients;
+            this.client.Image = ((System.Drawing.Image)(resources.GetObject("client.Image")));
             this.client.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.client.ImageOffset = new System.Drawing.Point(1, 0);
-            this.client.ImageSize = new System.Drawing.Size(45, 45);
-            this.client.Location = new System.Drawing.Point(22, 375);
-            this.client.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.client.MaximumSize = new System.Drawing.Size(284, 58);
-            this.client.MinimumSize = new System.Drawing.Size(52, 58);
+            this.client.ImageSize = new System.Drawing.Size(40, 40);
+            this.client.Location = new System.Drawing.Point(25, 500);
+            this.client.MaximumSize = new System.Drawing.Size(325, 77);
+            this.client.MinimumSize = new System.Drawing.Size(59, 77);
             this.client.Name = "client";
-            this.client.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
-            this.client.Size = new System.Drawing.Size(284, 58);
+            this.client.Padding = new System.Windows.Forms.Padding(21, 0, 0, 0);
+            this.client.Size = new System.Drawing.Size(325, 77);
             this.client.TabIndex = 6;
             this.client.Text = "         Client";
             this.client.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -141,14 +138,13 @@
             this.categorie.Image = global::projet_gestion_des_ventes.Properties.Resources.cat;
             this.categorie.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.categorie.ImageOffset = new System.Drawing.Point(1, 0);
-            this.categorie.ImageSize = new System.Drawing.Size(30, 30);
-            this.categorie.Location = new System.Drawing.Point(25, 312);
-            this.categorie.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.categorie.MaximumSize = new System.Drawing.Size(284, 58);
-            this.categorie.MinimumSize = new System.Drawing.Size(52, 58);
+            this.categorie.ImageSize = new System.Drawing.Size(40, 40);
+            this.categorie.Location = new System.Drawing.Point(25, 416);
+            this.categorie.MaximumSize = new System.Drawing.Size(325, 77);
+            this.categorie.MinimumSize = new System.Drawing.Size(59, 77);
             this.categorie.Name = "categorie";
-            this.categorie.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
-            this.categorie.Size = new System.Drawing.Size(273, 58);
+            this.categorie.Padding = new System.Windows.Forms.Padding(21, 0, 0, 0);
+            this.categorie.Size = new System.Drawing.Size(325, 77);
             this.categorie.TabIndex = 8;
             this.categorie.Text = "          Catégorie";
             this.categorie.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -167,14 +163,13 @@
             this.produit.Image = global::projet_gestion_des_ventes.Properties.Resources.product;
             this.produit.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.produit.ImageOffset = new System.Drawing.Point(1, 0);
-            this.produit.ImageSize = new System.Drawing.Size(45, 45);
-            this.produit.Location = new System.Drawing.Point(22, 249);
-            this.produit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.produit.MaximumSize = new System.Drawing.Size(284, 58);
-            this.produit.MinimumSize = new System.Drawing.Size(52, 58);
+            this.produit.ImageSize = new System.Drawing.Size(40, 40);
+            this.produit.Location = new System.Drawing.Point(25, 332);
+            this.produit.MaximumSize = new System.Drawing.Size(325, 77);
+            this.produit.MinimumSize = new System.Drawing.Size(59, 77);
             this.produit.Name = "produit";
-            this.produit.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
-            this.produit.Size = new System.Drawing.Size(284, 58);
+            this.produit.Padding = new System.Windows.Forms.Padding(21, 0, 0, 0);
+            this.produit.Size = new System.Drawing.Size(325, 77);
             this.produit.TabIndex = 9;
             this.produit.Text = "         Produit";
             this.produit.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -193,14 +188,13 @@
             this.commande.Image = global::projet_gestion_des_ventes.Properties.Resources.cmd;
             this.commande.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.commande.ImageOffset = new System.Drawing.Point(1, 0);
-            this.commande.ImageSize = new System.Drawing.Size(40, 40);
-            this.commande.Location = new System.Drawing.Point(22, 186);
-            this.commande.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.commande.MaximumSize = new System.Drawing.Size(284, 58);
-            this.commande.MinimumSize = new System.Drawing.Size(52, 58);
+            this.commande.ImageSize = new System.Drawing.Size(35, 35);
+            this.commande.Location = new System.Drawing.Point(25, 248);
+            this.commande.MaximumSize = new System.Drawing.Size(325, 77);
+            this.commande.MinimumSize = new System.Drawing.Size(59, 77);
             this.commande.Name = "commande";
-            this.commande.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
-            this.commande.Size = new System.Drawing.Size(284, 58);
+            this.commande.Padding = new System.Windows.Forms.Padding(21, 0, 0, 0);
+            this.commande.Size = new System.Drawing.Size(325, 77);
             this.commande.TabIndex = 10;
             this.commande.Text = "         Commande";
             this.commande.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -221,13 +215,12 @@
             this.departement.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.departement.ImageOffset = new System.Drawing.Point(1, 0);
             this.departement.ImageSize = new System.Drawing.Size(40, 40);
-            this.departement.Location = new System.Drawing.Point(22, 123);
-            this.departement.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.departement.MaximumSize = new System.Drawing.Size(284, 58);
-            this.departement.MinimumSize = new System.Drawing.Size(52, 58);
+            this.departement.Location = new System.Drawing.Point(25, 164);
+            this.departement.MaximumSize = new System.Drawing.Size(325, 77);
+            this.departement.MinimumSize = new System.Drawing.Size(59, 77);
             this.departement.Name = "departement";
-            this.departement.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
-            this.departement.Size = new System.Drawing.Size(284, 58);
+            this.departement.Padding = new System.Windows.Forms.Padding(21, 0, 0, 0);
+            this.departement.Size = new System.Drawing.Size(325, 77);
             this.departement.TabIndex = 11;
             this.departement.Text = "         Département";
             this.departement.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -238,10 +231,9 @@
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Poppins", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox4.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox4.Location = new System.Drawing.Point(12, 606);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox4.Location = new System.Drawing.Point(14, 808);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(88, 16);
+            this.textBox4.Size = new System.Drawing.Size(101, 20);
             this.textBox4.TabIndex = 13;
             this.textBox4.Text = "Version 1.2.1";
             // 
@@ -256,12 +248,11 @@
             this.profil.Controls.Add(this.textBox1);
             this.profil.Controls.Add(this.textBox8);
             this.profil.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(173)))), ((int)(((byte)(207)))));
-            this.profil.Location = new System.Drawing.Point(22, 542);
-            this.profil.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.profil.MaximumSize = new System.Drawing.Size(284, 59);
-            this.profil.MinimumSize = new System.Drawing.Size(52, 59);
+            this.profil.Location = new System.Drawing.Point(25, 723);
+            this.profil.MaximumSize = new System.Drawing.Size(325, 79);
+            this.profil.MinimumSize = new System.Drawing.Size(59, 79);
             this.profil.Name = "profil";
-            this.profil.Size = new System.Drawing.Size(284, 59);
+            this.profil.Size = new System.Drawing.Size(325, 79);
             this.profil.TabIndex = 27;
             this.profil.Text = "guna2ContainerControl1";
             // 
@@ -273,9 +264,10 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(214, 4);
+            this.button7.Location = new System.Drawing.Point(245, 5);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(62, 52);
+            this.button7.Size = new System.Drawing.Size(71, 69);
             this.button7.TabIndex = 37;
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click_2);
@@ -284,9 +276,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(173)))), ((int)(((byte)(207)))));
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(3, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(3, 5);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(46, 49);
+            this.pictureBox2.Size = new System.Drawing.Size(53, 65);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 46;
             this.pictureBox2.TabStop = false;
@@ -297,9 +290,10 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(84, 4);
+            this.textBox1.Location = new System.Drawing.Point(96, 5);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
+            this.textBox1.Size = new System.Drawing.Size(114, 29);
             this.textBox1.TabIndex = 47;
             this.textBox1.Text = "ID : 157488";
             // 
@@ -309,9 +303,10 @@
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox8.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox8.ForeColor = System.Drawing.Color.White;
-            this.textBox8.Location = new System.Drawing.Point(84, 32);
+            this.textBox8.Location = new System.Drawing.Point(96, 43);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(110, 23);
+            this.textBox8.Size = new System.Drawing.Size(126, 29);
             this.textBox8.TabIndex = 48;
             this.textBox8.Text = "Nom : Karim";
             // 
@@ -330,12 +325,11 @@
             this.sidebar.Controls.Add(this.client);
             this.sidebar.Controls.Add(this.facture);
             this.sidebar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
-            this.sidebar.Location = new System.Drawing.Point(10, 9);
-            this.sidebar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.sidebar.MaximumSize = new System.Drawing.Size(316, 632);
-            this.sidebar.MinimumSize = new System.Drawing.Size(99, 632);
+            this.sidebar.Location = new System.Drawing.Point(11, 12);
+            this.sidebar.MaximumSize = new System.Drawing.Size(361, 843);
+            this.sidebar.MinimumSize = new System.Drawing.Size(113, 843);
             this.sidebar.Name = "sidebar";
-            this.sidebar.Size = new System.Drawing.Size(316, 632);
+            this.sidebar.Size = new System.Drawing.Size(361, 843);
             this.sidebar.TabIndex = 27;
             this.sidebar.Text = "guna2ContainerControl1";
             this.sidebar.Click += new System.EventHandler(this.sidebar_Click);
@@ -349,12 +343,11 @@
             this.MenuCon.Controls.Add(this.guna2HtmlLabel1);
             this.MenuCon.Controls.Add(this.menuButton);
             this.MenuCon.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
-            this.MenuCon.Location = new System.Drawing.Point(10, 29);
-            this.MenuCon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MenuCon.MaximumSize = new System.Drawing.Size(293, 59);
-            this.MenuCon.MinimumSize = new System.Drawing.Size(76, 59);
+            this.MenuCon.Location = new System.Drawing.Point(11, 39);
+            this.MenuCon.MaximumSize = new System.Drawing.Size(335, 79);
+            this.MenuCon.MinimumSize = new System.Drawing.Size(87, 79);
             this.MenuCon.Name = "MenuCon";
-            this.MenuCon.Size = new System.Drawing.Size(293, 59);
+            this.MenuCon.Size = new System.Drawing.Size(335, 79);
             this.MenuCon.TabIndex = 49;
             this.MenuCon.Text = "guna2ContainerControl1";
             // 
@@ -363,10 +356,9 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Poppins", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.Window;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(136, 6);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(155, 8);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(79, 48);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(97, 60);
             this.guna2HtmlLabel1.TabIndex = 24;
             this.guna2HtmlLabel1.Text = "Menu";
             // 
@@ -378,11 +370,10 @@
             this.menuButton.Image = ((System.Drawing.Image)(resources.GetObject("menuButton.Image")));
             this.menuButton.ImageOffset = new System.Drawing.Point(0, 0);
             this.menuButton.ImageRotate = 0F;
-            this.menuButton.Location = new System.Drawing.Point(5, 6);
-            this.menuButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.menuButton.Location = new System.Drawing.Point(6, 8);
             this.menuButton.Name = "menuButton";
             this.menuButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.menuButton.Size = new System.Drawing.Size(70, 45);
+            this.menuButton.Size = new System.Drawing.Size(80, 60);
             this.menuButton.TabIndex = 23;
             this.menuButton.Click += new System.EventHandler(this.menuButton_Click_1);
             // 
@@ -400,12 +391,11 @@
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.White;
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(803, 8);
-            this.guna2DateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(918, 11);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(284, 34);
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(325, 45);
             this.guna2DateTimePicker1.TabIndex = 26;
             this.guna2DateTimePicker1.Value = new System.DateTime(2022, 11, 27, 20, 55, 41, 231);
             // 
@@ -421,10 +411,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(476, 624);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(544, 832);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(328, 17);
+            this.label1.Size = new System.Drawing.Size(386, 20);
             this.label1.TabIndex = 25;
             this.label1.Text = "© Copyright 2022 Techno, Inc, All Rights Reserved";
             // 
@@ -455,13 +445,12 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(450, 321);
-            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(514, 428);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidth = 51;
             this.guna2DataGridView1.RowTemplate.Height = 29;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(497, 206);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(568, 275);
             this.guna2DataGridView1.TabIndex = 28;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -495,10 +484,9 @@
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.guna2Button1.Font = new System.Drawing.Font("Poppins Medium", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(396, 237);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button1.Location = new System.Drawing.Point(453, 316);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(197, 42);
+            this.guna2Button1.Size = new System.Drawing.Size(225, 56);
             this.guna2Button1.TabIndex = 29;
             this.guna2Button1.Text = "Ajouter";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -513,10 +501,9 @@
             this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.guna2Button2.Font = new System.Drawing.Font("Poppins Medium", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(841, 237);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button2.Location = new System.Drawing.Point(961, 316);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(197, 42);
+            this.guna2Button2.Size = new System.Drawing.Size(225, 56);
             this.guna2Button2.TabIndex = 30;
             this.guna2Button2.Text = "Supprimer";
             // 
@@ -530,10 +517,9 @@
             this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.guna2Button3.Font = new System.Drawing.Font("Poppins Medium", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(619, 237);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button3.Location = new System.Drawing.Point(707, 316);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(197, 42);
+            this.guna2Button3.Size = new System.Drawing.Size(225, 56);
             this.guna2Button3.TabIndex = 31;
             this.guna2Button3.Text = "Modifier";
             // 
@@ -541,10 +527,9 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins Medium", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(630, 132);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(720, 176);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(174, 27);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(209, 34);
             this.guna2HtmlLabel2.TabIndex = 32;
             this.guna2HtmlLabel2.Text = "Nom du département";
             this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
@@ -552,19 +537,18 @@
             // textBox2
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(619, 175);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox2.Location = new System.Drawing.Point(707, 233);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(197, 30);
+            this.textBox2.Size = new System.Drawing.Size(225, 40);
             this.textBox2.TabIndex = 35;
             // 
             // departements
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1098, 650);
+            this.ClientSize = new System.Drawing.Size(1255, 867);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.guna2Button3);
@@ -575,7 +559,6 @@
             this.Controls.Add(this.guna2DateTimePicker1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "departements";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "departements";
