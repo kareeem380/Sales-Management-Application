@@ -183,6 +183,7 @@
             // 
             this.client.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.client.BorderRadius = 27;
+            this.client.Checked = true;
             this.client.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.client.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.client.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -209,7 +210,6 @@
             // 
             this.facture.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.facture.BorderRadius = 27;
-            this.facture.Checked = true;
             this.facture.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.facture.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.facture.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
