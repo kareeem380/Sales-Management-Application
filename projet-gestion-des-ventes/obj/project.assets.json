@@ -40,11 +40,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Khaaoula\\Documents\\gestion-des-ventes\\projet-gestion-des-ventes\\projet-gestion-des-ventes.csproj",
+      "projectUniqueName": "C:\\Users\\Khaaoula\\Documents\\c#\\gestion-des-ventes\\projet-gestion-des-ventes\\projet-gestion-des-ventes.csproj",
       "projectName": "projet-gestion-des-ventes",
-      "projectPath": "C:\\Users\\Khaaoula\\Documents\\gestion-des-ventes\\projet-gestion-des-ventes\\projet-gestion-des-ventes.csproj",
+      "projectPath": "C:\\Users\\Khaaoula\\Documents\\c#\\gestion-des-ventes\\projet-gestion-des-ventes\\projet-gestion-des-ventes.csproj",
       "packagesPath": "C:\\Users\\Khaaoula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Khaaoula\\Documents\\gestion-des-ventes\\projet-gestion-des-ventes\\obj\\",
+      "outputPath": "C:\\Users\\Khaaoula\\Documents\\c#\\gestion-des-ventes\\projet-gestion-des-ventes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Khaaoula\\AppData\\Roaming\\NuGet\\NuGet.Config",

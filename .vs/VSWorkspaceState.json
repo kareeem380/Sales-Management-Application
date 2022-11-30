@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\projet-gestion-des-ventes",
+    "\\projet-gestion-des-ventes\\Properties",
+    "\\projet-gestion-des-ventes\\Resources"
   ],
+  "SelectedNode": "\\projet-gestion-des-ventes\\dashboard.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(departements));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.facture = new Guna.UI2.WinForms.Guna2Button();
             this.client = new Guna.UI2.WinForms.Guna2Button();
@@ -47,6 +47,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.sidebar = new Guna.UI2.WinForms.Guna2ContainerControl();
+            this.MenuCon = new Guna.UI2.WinForms.Guna2ContainerControl();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.menuButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
@@ -58,14 +61,11 @@
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.MenuCon = new Guna.UI2.WinForms.Guna2ContainerControl();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.menuButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.profil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.sidebar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             this.MenuCon.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2AnimateWindow1
@@ -76,6 +76,7 @@
             // 
             this.facture.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.facture.BorderRadius = 27;
+            this.facture.Checked = true;
             this.facture.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.facture.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.facture.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -83,7 +84,7 @@
             this.facture.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.facture.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.facture.ForeColor = System.Drawing.Color.White;
-            this.facture.Image = ((System.Drawing.Image)(resources.GetObject("facture.Image")));
+            this.facture.Image = global::projet_gestion_des_ventes.Properties.Resources.Ecommerce_14;
             this.facture.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.facture.ImageOffset = new System.Drawing.Point(2, 0);
             this.facture.ImageSize = new System.Drawing.Size(40, 40);
@@ -110,10 +111,10 @@
             this.client.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.client.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.client.ForeColor = System.Drawing.Color.White;
-            this.client.Image = ((System.Drawing.Image)(resources.GetObject("client.Image")));
+            this.client.Image = global::projet_gestion_des_ventes.Properties.Resources.clients;
             this.client.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.client.ImageOffset = new System.Drawing.Point(1, 0);
-            this.client.ImageSize = new System.Drawing.Size(40, 40);
+            this.client.ImageSize = new System.Drawing.Size(45, 45);
             this.client.Location = new System.Drawing.Point(22, 375);
             this.client.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.client.MaximumSize = new System.Drawing.Size(284, 58);
@@ -137,19 +138,19 @@
             this.categorie.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.categorie.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.categorie.ForeColor = System.Drawing.Color.White;
-            this.categorie.Image = ((System.Drawing.Image)(resources.GetObject("categorie.Image")));
+            this.categorie.Image = global::projet_gestion_des_ventes.Properties.Resources.cat;
             this.categorie.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.categorie.ImageOffset = new System.Drawing.Point(1, 0);
-            this.categorie.ImageSize = new System.Drawing.Size(40, 40);
-            this.categorie.Location = new System.Drawing.Point(22, 312);
+            this.categorie.ImageSize = new System.Drawing.Size(30, 30);
+            this.categorie.Location = new System.Drawing.Point(25, 312);
             this.categorie.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.categorie.MaximumSize = new System.Drawing.Size(284, 58);
             this.categorie.MinimumSize = new System.Drawing.Size(52, 58);
             this.categorie.Name = "categorie";
             this.categorie.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
-            this.categorie.Size = new System.Drawing.Size(284, 58);
+            this.categorie.Size = new System.Drawing.Size(273, 58);
             this.categorie.TabIndex = 8;
-            this.categorie.Text = "         Catégorie";
+            this.categorie.Text = "          Catégorie";
             this.categorie.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // produit
@@ -163,10 +164,10 @@
             this.produit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.produit.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.produit.ForeColor = System.Drawing.Color.White;
-            this.produit.Image = ((System.Drawing.Image)(resources.GetObject("produit.Image")));
+            this.produit.Image = global::projet_gestion_des_ventes.Properties.Resources.product;
             this.produit.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.produit.ImageOffset = new System.Drawing.Point(1, 0);
-            this.produit.ImageSize = new System.Drawing.Size(40, 40);
+            this.produit.ImageSize = new System.Drawing.Size(45, 45);
             this.produit.Location = new System.Drawing.Point(22, 249);
             this.produit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.produit.MaximumSize = new System.Drawing.Size(284, 58);
@@ -189,7 +190,7 @@
             this.commande.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.commande.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.commande.ForeColor = System.Drawing.Color.White;
-            this.commande.Image = ((System.Drawing.Image)(resources.GetObject("commande.Image")));
+            this.commande.Image = global::projet_gestion_des_ventes.Properties.Resources.cmd;
             this.commande.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.commande.ImageOffset = new System.Drawing.Point(1, 0);
             this.commande.ImageSize = new System.Drawing.Size(40, 40);
@@ -216,7 +217,7 @@
             this.departement.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.departement.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.departement.ForeColor = System.Drawing.Color.White;
-            this.departement.Image = ((System.Drawing.Image)(resources.GetObject("departement.Image")));
+            this.departement.Image = global::projet_gestion_des_ventes.Properties.Resources.dep;
             this.departement.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.departement.ImageOffset = new System.Drawing.Point(1, 0);
             this.departement.ImageSize = new System.Drawing.Size(40, 40);
@@ -339,6 +340,52 @@
             this.sidebar.Text = "guna2ContainerControl1";
             this.sidebar.Click += new System.EventHandler(this.sidebar_Click);
             // 
+            // MenuCon
+            // 
+            this.MenuCon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.MenuCon.BorderColor = System.Drawing.Color.White;
+            this.MenuCon.BorderRadius = 15;
+            this.MenuCon.BorderThickness = 1;
+            this.MenuCon.Controls.Add(this.guna2HtmlLabel1);
+            this.MenuCon.Controls.Add(this.menuButton);
+            this.MenuCon.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.MenuCon.Location = new System.Drawing.Point(10, 29);
+            this.MenuCon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MenuCon.MaximumSize = new System.Drawing.Size(293, 59);
+            this.MenuCon.MinimumSize = new System.Drawing.Size(76, 59);
+            this.MenuCon.Name = "MenuCon";
+            this.MenuCon.Size = new System.Drawing.Size(293, 59);
+            this.MenuCon.TabIndex = 49;
+            this.MenuCon.Text = "guna2ContainerControl1";
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Poppins", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.Window;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(136, 6);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(79, 48);
+            this.guna2HtmlLabel1.TabIndex = 24;
+            this.guna2HtmlLabel1.Text = "Menu";
+            // 
+            // menuButton
+            // 
+            this.menuButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.menuButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.menuButton.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.menuButton.Image = ((System.Drawing.Image)(resources.GetObject("menuButton.Image")));
+            this.menuButton.ImageOffset = new System.Drawing.Point(0, 0);
+            this.menuButton.ImageRotate = 0F;
+            this.menuButton.Location = new System.Drawing.Point(5, 6);
+            this.menuButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.menuButton.Name = "menuButton";
+            this.menuButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.menuButton.Size = new System.Drawing.Size(70, 45);
+            this.menuButton.TabIndex = 23;
+            this.menuButton.Click += new System.EventHandler(this.menuButton_Click_1);
+            // 
             // sidebarTimer
             // 
             this.sidebarTimer.Enabled = true;
@@ -373,11 +420,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poppins Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(476, 624);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(349, 25);
+            this.label1.Size = new System.Drawing.Size(328, 17);
             this.label1.TabIndex = 25;
             this.label1.Text = "© Copyright 2022 Techno, Inc, All Rights Reserved";
             // 
@@ -387,34 +434,34 @@
             // 
             // guna2DataGridView1
             // 
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.guna2DataGridView1.ColumnHeadersHeight = 4;
             this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(476, 299);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(450, 321);
             this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidth = 51;
             this.guna2DataGridView1.RowTemplate.Height = 29;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(477, 191);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(497, 206);
             this.guna2DataGridView1.TabIndex = 28;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -494,10 +541,10 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins Medium", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(632, 152);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(630, 132);
             this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(163, 27);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(174, 27);
             this.guna2HtmlLabel2.TabIndex = 32;
             this.guna2HtmlLabel2.Text = "Nom du département";
             this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
@@ -505,58 +552,12 @@
             // textBox2
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(619, 183);
+            this.textBox2.Location = new System.Drawing.Point(619, 175);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(197, 30);
             this.textBox2.TabIndex = 35;
-            // 
-            // MenuCon
-            // 
-            this.MenuCon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
-            this.MenuCon.BorderColor = System.Drawing.Color.White;
-            this.MenuCon.BorderRadius = 15;
-            this.MenuCon.BorderThickness = 1;
-            this.MenuCon.Controls.Add(this.guna2HtmlLabel1);
-            this.MenuCon.Controls.Add(this.menuButton);
-            this.MenuCon.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
-            this.MenuCon.Location = new System.Drawing.Point(10, 29);
-            this.MenuCon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MenuCon.MaximumSize = new System.Drawing.Size(293, 59);
-            this.MenuCon.MinimumSize = new System.Drawing.Size(76, 59);
-            this.MenuCon.Name = "MenuCon";
-            this.MenuCon.Size = new System.Drawing.Size(293, 59);
-            this.MenuCon.TabIndex = 49;
-            this.MenuCon.Text = "guna2ContainerControl1";
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Poppins", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.Window;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(136, 6);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(79, 48);
-            this.guna2HtmlLabel1.TabIndex = 24;
-            this.guna2HtmlLabel1.Text = "Menu";
-            // 
-            // menuButton
-            // 
-            this.menuButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
-            this.menuButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.menuButton.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.menuButton.Image = ((System.Drawing.Image)(resources.GetObject("menuButton.Image")));
-            this.menuButton.ImageOffset = new System.Drawing.Point(0, 0);
-            this.menuButton.ImageRotate = 0F;
-            this.menuButton.Location = new System.Drawing.Point(5, 6);
-            this.menuButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.menuButton.Name = "menuButton";
-            this.menuButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.menuButton.Size = new System.Drawing.Size(70, 45);
-            this.menuButton.TabIndex = 23;
-            this.menuButton.Click += new System.EventHandler(this.menuButton_Click_1);
             // 
             // departements
             // 
@@ -584,9 +585,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.sidebar.ResumeLayout(false);
             this.sidebar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.MenuCon.ResumeLayout(false);
             this.MenuCon.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
