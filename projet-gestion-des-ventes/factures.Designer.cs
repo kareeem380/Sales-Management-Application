@@ -48,10 +48,10 @@
             this.produit = new Guna.UI2.WinForms.Guna2Button();
             this.categorie = new Guna.UI2.WinForms.Guna2Button();
             this.popo = new Guna.UI2.WinForms.Guna2Button();
-            this.facture = new Guna.UI2.WinForms.Guna2Button();
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.facture = new Guna.UI2.WinForms.Guna2Button();
             this.MenuCon.SuspendLayout();
             this.sidebar.SuspendLayout();
             this.profil.SuspendLayout();
@@ -352,33 +352,6 @@
             this.popo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.popo.Click += new System.EventHandler(this.client_Click);
             // 
-            // facture
-            // 
-            this.facture.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
-            this.facture.BorderRadius = 27;
-            this.facture.Checked = true;
-            this.facture.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.facture.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.facture.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.facture.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.facture.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
-            this.facture.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.facture.ForeColor = System.Drawing.Color.White;
-            this.facture.Image = ((System.Drawing.Image)(resources.GetObject("facture.Image")));
-            this.facture.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.facture.ImageOffset = new System.Drawing.Point(2, 0);
-            this.facture.ImageSize = new System.Drawing.Size(35, 35);
-            this.facture.Location = new System.Drawing.Point(25, 584);
-            this.facture.MaximumSize = new System.Drawing.Size(325, 77);
-            this.facture.MinimumSize = new System.Drawing.Size(59, 77);
-            this.facture.Name = "facture";
-            this.facture.Padding = new System.Windows.Forms.Padding(21, 0, 0, 0);
-            this.facture.Size = new System.Drawing.Size(325, 77);
-            this.facture.TabIndex = 7;
-            this.facture.Text = "         Facturation";
-            this.facture.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.facture.Click += new System.EventHandler(this.facture_Click_1);
-            // 
             // guna2DateTimePicker1
             // 
             this.guna2DateTimePicker1.BorderRadius = 15;
@@ -409,6 +382,33 @@
             // guna2AnimateWindow1
             // 
             this.guna2AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_BLEND;
+            // 
+            // facture
+            // 
+            this.facture.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.facture.BorderRadius = 27;
+            this.facture.Checked = true;
+            this.facture.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.facture.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.facture.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.facture.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.facture.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.facture.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.facture.ForeColor = System.Drawing.Color.White;
+            this.facture.Image = ((System.Drawing.Image)(resources.GetObject("facture.Image")));
+            this.facture.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.facture.ImageOffset = new System.Drawing.Point(2, 0);
+            this.facture.ImageSize = new System.Drawing.Size(35, 35);
+            this.facture.Location = new System.Drawing.Point(25, 584);
+            this.facture.MaximumSize = new System.Drawing.Size(325, 77);
+            this.facture.MinimumSize = new System.Drawing.Size(59, 77);
+            this.facture.Name = "facture";
+            this.facture.Padding = new System.Windows.Forms.Padding(21, 0, 0, 0);
+            this.facture.Size = new System.Drawing.Size(325, 77);
+            this.facture.TabIndex = 7;
+            this.facture.Text = "         Facturation";
+            this.facture.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.facture.Click += new System.EventHandler(this.facture_Click_1);
             // 
             // factures
             // 
@@ -456,10 +456,10 @@
         private Guna.UI2.WinForms.Guna2Button produit;
         private Guna.UI2.WinForms.Guna2Button categorie;
         private Guna.UI2.WinForms.Guna2Button popo;
-        private Guna.UI2.WinForms.Guna2Button facture;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
         private Label label1;
         private System.Windows.Forms.Timer sidebarTimer;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
+        private Guna.UI2.WinForms.Guna2Button facture;
     }
 }

@@ -66,9 +66,6 @@
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>25</value>
   </metadata>
-  <metadata name="sidebarTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="menuButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -8627,7 +8624,7 @@
   <data name="facture.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAaAAAAGgCAYAAADsNrNZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAIyRJREFUeF7t3Qt0VfWZ9/FCgtwVBLnfEnIlgBApF1sEhHjhjgLeqgjBGWEKIiMj
+        DwAACw8BkvkDpQAAIyRJREFUeF7t3Qt0VfWZ9/FCgtwVBLnfEnIlgBApF1sEhHjhjgLeqgjBGWEKIiMj
         FxWxcrHvaBXFOlWLfRWsIqgoimgiKFLCRSJREKhECRKSQHDW275tp9Xn3f9jdl+W/omcnJNn77PP97fW
         Z82amU6ys7PP+Z6zwyQ/YowxxhhjjDHGGGOMMcYYY4wxxhhjjDHGGGOMMcYYY4wxxhhjjDHGGGOMMcYY
         Y4wxxhhjjDHGGGOMMcYYY4wxxhhjjDEWP6vjSHQ0cDR0NAIAxA3zvF/fkeAwPVBZXUf9hISEzk0aN/7Z
@@ -8780,6 +8777,9 @@
         xhhjLCD70Y/+H9TUHN86crocAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="sidebarTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="guna2AnimateWindow1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>162, 17</value>
   </metadata>
