@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eET/6o55DFR/PzjyoV2QlBxDcd0PGRscFbcqO13ZMor9+y+yHiZijvvnqTA8cN80Hbza7H065oaJKujXjDYFDg==",
+  "dgSpecHash": "BzFdIJlCATDQnFJYGST3pskgFaidPWoTNZ2Cu57RJF1TnnUnPHdAjW5f6EaVaraDZvBfSSV0K+v1TVnf1Y46AQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Karim\\source\\C#\\Gestion des ventes\\projet-gestion-des-ventes\\projet-gestion-des-ventes.csproj",
+  "projectFilePath": "C:\\Users\\Khaaoula\\Documents\\gestion-des-ventes\\projet-gestion-des-ventes\\projet-gestion-des-ventes.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Karim\\.nuget\\packages\\guna.ui2.winforms\\2.0.3.5\\guna.ui2.winforms.2.0.3.5.nupkg.sha512"
+    "C:\\Users\\Khaaoula\\.nuget\\packages\\guna.ui2.winforms\\2.0.3.5\\guna.ui2.winforms.2.0.3.5.nupkg.sha512"
   ],
   "logs": [
     {

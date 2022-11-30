@@ -55,21 +55,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poppins Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(430, 827);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(376, 620);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(426, 30);
+            this.label1.Size = new System.Drawing.Size(328, 17);
             this.label1.TabIndex = 35;
             this.label1.Text = "© Copyright 2022 Techno, Inc, All Rights Reserved";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1092, 9);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(956, 7);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(149, 129);
+            this.pictureBox1.Size = new System.Drawing.Size(130, 97);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
@@ -83,11 +82,12 @@
             this.guna2ContainerControl1.Controls.Add(this.client);
             this.guna2ContainerControl1.Controls.Add(this.facture);
             this.guna2ContainerControl1.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.guna2ContainerControl1.Location = new System.Drawing.Point(-1, 301);
-            this.guna2ContainerControl1.MaximumSize = new System.Drawing.Size(1255, 260);
-            this.guna2ContainerControl1.MinimumSize = new System.Drawing.Size(1255, 260);
+            this.guna2ContainerControl1.Location = new System.Drawing.Point(-1, 226);
+            this.guna2ContainerControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2ContainerControl1.MaximumSize = new System.Drawing.Size(1098, 195);
+            this.guna2ContainerControl1.MinimumSize = new System.Drawing.Size(1098, 195);
             this.guna2ContainerControl1.Name = "guna2ContainerControl1";
-            this.guna2ContainerControl1.Size = new System.Drawing.Size(1255, 260);
+            this.guna2ContainerControl1.Size = new System.Drawing.Size(1098, 195);
             this.guna2ContainerControl1.TabIndex = 46;
             this.guna2ContainerControl1.Text = "guna2ContainerControl1";
             this.guna2ContainerControl1.Click += new System.EventHandler(this.guna2ContainerControl1_Click);
@@ -107,12 +107,13 @@
             this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button6.ImageOffset = new System.Drawing.Point(1, 0);
             this.guna2Button6.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button6.Location = new System.Drawing.Point(73, 14);
-            this.guna2Button6.MaximumSize = new System.Drawing.Size(325, 78);
-            this.guna2Button6.MinimumSize = new System.Drawing.Size(59, 78);
+            this.guna2Button6.Location = new System.Drawing.Point(64, 10);
+            this.guna2Button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button6.MaximumSize = new System.Drawing.Size(284, 58);
+            this.guna2Button6.MinimumSize = new System.Drawing.Size(52, 58);
             this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.guna2Button6.Size = new System.Drawing.Size(325, 78);
+            this.guna2Button6.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
+            this.guna2Button6.Size = new System.Drawing.Size(284, 58);
             this.guna2Button6.TabIndex = 48;
             this.guna2Button6.Text = "Département";
             this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
@@ -132,12 +133,13 @@
             this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button5.ImageOffset = new System.Drawing.Point(1, 0);
             this.guna2Button5.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button5.Location = new System.Drawing.Point(73, 164);
-            this.guna2Button5.MaximumSize = new System.Drawing.Size(325, 78);
-            this.guna2Button5.MinimumSize = new System.Drawing.Size(59, 78);
+            this.guna2Button5.Location = new System.Drawing.Point(64, 123);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button5.MaximumSize = new System.Drawing.Size(284, 58);
+            this.guna2Button5.MinimumSize = new System.Drawing.Size(52, 58);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.guna2Button5.Size = new System.Drawing.Size(325, 78);
+            this.guna2Button5.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
+            this.guna2Button5.Size = new System.Drawing.Size(284, 58);
             this.guna2Button5.TabIndex = 47;
             this.guna2Button5.Text = "Commande";
             this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
@@ -157,12 +159,13 @@
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button4.ImageOffset = new System.Drawing.Point(1, 0);
             this.guna2Button4.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button4.Location = new System.Drawing.Point(453, 164);
-            this.guna2Button4.MaximumSize = new System.Drawing.Size(325, 78);
-            this.guna2Button4.MinimumSize = new System.Drawing.Size(59, 78);
+            this.guna2Button4.Location = new System.Drawing.Point(396, 123);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button4.MaximumSize = new System.Drawing.Size(284, 58);
+            this.guna2Button4.MinimumSize = new System.Drawing.Size(52, 58);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.guna2Button4.Size = new System.Drawing.Size(325, 78);
+            this.guna2Button4.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
+            this.guna2Button4.Size = new System.Drawing.Size(284, 58);
             this.guna2Button4.TabIndex = 11;
             this.guna2Button4.Text = "Produit";
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
@@ -182,12 +185,13 @@
             this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button3.ImageOffset = new System.Drawing.Point(1, 0);
             this.guna2Button3.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button3.Location = new System.Drawing.Point(826, 164);
-            this.guna2Button3.MaximumSize = new System.Drawing.Size(325, 78);
-            this.guna2Button3.MinimumSize = new System.Drawing.Size(59, 78);
+            this.guna2Button3.Location = new System.Drawing.Point(723, 123);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button3.MaximumSize = new System.Drawing.Size(284, 58);
+            this.guna2Button3.MinimumSize = new System.Drawing.Size(52, 58);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.guna2Button3.Size = new System.Drawing.Size(325, 78);
+            this.guna2Button3.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
+            this.guna2Button3.Size = new System.Drawing.Size(284, 58);
             this.guna2Button3.TabIndex = 10;
             this.guna2Button3.Text = "Catégorie";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
@@ -206,12 +210,13 @@
             this.client.Image = ((System.Drawing.Image)(resources.GetObject("client.Image")));
             this.client.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.client.ImageSize = new System.Drawing.Size(40, 40);
-            this.client.Location = new System.Drawing.Point(453, 14);
-            this.client.MaximumSize = new System.Drawing.Size(325, 78);
-            this.client.MinimumSize = new System.Drawing.Size(59, 78);
+            this.client.Location = new System.Drawing.Point(396, 10);
+            this.client.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.client.MaximumSize = new System.Drawing.Size(284, 58);
+            this.client.MinimumSize = new System.Drawing.Size(52, 58);
             this.client.Name = "client";
-            this.client.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.client.Size = new System.Drawing.Size(325, 78);
+            this.client.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
+            this.client.Size = new System.Drawing.Size(284, 58);
             this.client.TabIndex = 9;
             this.client.Text = "Client";
             this.client.Click += new System.EventHandler(this.client_Click);
@@ -231,12 +236,13 @@
             this.facture.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.facture.ImageOffset = new System.Drawing.Point(2, 0);
             this.facture.ImageSize = new System.Drawing.Size(40, 40);
-            this.facture.Location = new System.Drawing.Point(826, 14);
-            this.facture.MaximumSize = new System.Drawing.Size(325, 78);
-            this.facture.MinimumSize = new System.Drawing.Size(59, 78);
+            this.facture.Location = new System.Drawing.Point(723, 10);
+            this.facture.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.facture.MaximumSize = new System.Drawing.Size(284, 58);
+            this.facture.MinimumSize = new System.Drawing.Size(52, 58);
             this.facture.Name = "facture";
-            this.facture.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.facture.Size = new System.Drawing.Size(325, 78);
+            this.facture.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
+            this.facture.Size = new System.Drawing.Size(284, 58);
             this.facture.TabIndex = 8;
             this.facture.Text = "Facturation";
             this.facture.Click += new System.EventHandler(this.facture_Click);
@@ -252,11 +258,12 @@
             this.profil.Controls.Add(this.textBox2);
             this.profil.Controls.Add(this.textBox3);
             this.profil.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
-            this.profil.Location = new System.Drawing.Point(25, 776);
-            this.profil.MaximumSize = new System.Drawing.Size(325, 79);
-            this.profil.MinimumSize = new System.Drawing.Size(59, 79);
+            this.profil.Location = new System.Drawing.Point(22, 582);
+            this.profil.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.profil.MaximumSize = new System.Drawing.Size(284, 59);
+            this.profil.MinimumSize = new System.Drawing.Size(52, 59);
             this.profil.Name = "profil";
-            this.profil.Size = new System.Drawing.Size(325, 79);
+            this.profil.Size = new System.Drawing.Size(284, 59);
             this.profil.TabIndex = 47;
             this.profil.Text = "guna2ContainerControl1";
             // 
@@ -268,10 +275,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(244, 5);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(214, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(71, 70);
+            this.button1.Size = new System.Drawing.Size(62, 52);
             this.button1.TabIndex = 37;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_4);
@@ -280,10 +286,9 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(3, 6);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(3, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(53, 65);
+            this.pictureBox3.Size = new System.Drawing.Size(46, 49);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 46;
             this.pictureBox3.TabStop = false;
@@ -294,10 +299,9 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(96, 6);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox2.Location = new System.Drawing.Point(84, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(114, 29);
+            this.textBox2.Size = new System.Drawing.Size(100, 23);
             this.textBox2.TabIndex = 47;
             this.textBox2.Text = "ID : 157488";
             // 
@@ -307,10 +311,9 @@
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(96, 42);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox3.Location = new System.Drawing.Point(84, 32);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(126, 29);
+            this.textBox3.Size = new System.Drawing.Size(110, 23);
             this.textBox3.TabIndex = 48;
             this.textBox3.Text = "Nom : Karim";
             // 
@@ -324,18 +327,19 @@
             // 
             // dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1255, 867);
+            this.ClientSize = new System.Drawing.Size(1098, 591);
             this.Controls.Add(this.profil);
             this.Controls.Add(this.guna2ContainerControl1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MaximumSize = new System.Drawing.Size(1255, 867);
-            this.MinimumSize = new System.Drawing.Size(1255, 867);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximumSize = new System.Drawing.Size(1098, 650);
+            this.MinimumSize = new System.Drawing.Size(1098, 538);
             this.Name = "dashboard";
             this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

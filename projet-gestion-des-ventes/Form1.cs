@@ -132,5 +132,10 @@ namespace projet_gestion_des_ventes
         {
 
         }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
