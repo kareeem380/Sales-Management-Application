@@ -103,10 +103,14 @@
             this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.guna2Button6.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.guna2Button6.Image = global::projet_gestion_des_ventes.Properties.Resources.dep;
             this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+=======
+            this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             this.guna2Button6.ImageOffset = new System.Drawing.Point(1, 0);
-            this.guna2Button6.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button6.ImageSize = new System.Drawing.Size(45, 45);
             this.guna2Button6.Location = new System.Drawing.Point(64, 10);
             this.guna2Button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button6.MaximumSize = new System.Drawing.Size(284, 58);
@@ -130,7 +134,6 @@
             this.guna2Button5.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
             this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
-            this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button5.ImageOffset = new System.Drawing.Point(1, 0);
             this.guna2Button5.ImageSize = new System.Drawing.Size(40, 40);
             this.guna2Button5.Location = new System.Drawing.Point(64, 123);
@@ -156,9 +159,8 @@
             this.guna2Button4.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
             this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
-            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button4.ImageOffset = new System.Drawing.Point(1, 0);
-            this.guna2Button4.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button4.ImageSize = new System.Drawing.Size(45, 45);
             this.guna2Button4.Location = new System.Drawing.Point(396, 123);
             this.guna2Button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button4.MaximumSize = new System.Drawing.Size(284, 58);
@@ -182,17 +184,15 @@
             this.guna2Button3.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
-            this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button3.ImageOffset = new System.Drawing.Point(1, 0);
-            this.guna2Button3.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button3.ImageSize = new System.Drawing.Size(35, 35);
             this.guna2Button3.Location = new System.Drawing.Point(723, 123);
             this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button3.MaximumSize = new System.Drawing.Size(284, 58);
             this.guna2Button3.MinimumSize = new System.Drawing.Size(52, 58);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
+            this.guna2Button3.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
             this.guna2Button3.Size = new System.Drawing.Size(284, 58);
-            this.guna2Button3.TabIndex = 10;
+            this.guna2Button3.TabIndex = 12;
             this.guna2Button3.Text = "Catégorie";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
@@ -208,8 +208,7 @@
             this.client.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.client.ForeColor = System.Drawing.Color.White;
             this.client.Image = ((System.Drawing.Image)(resources.GetObject("client.Image")));
-            this.client.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.client.ImageSize = new System.Drawing.Size(40, 40);
+            this.client.ImageSize = new System.Drawing.Size(55, 55);
             this.client.Location = new System.Drawing.Point(396, 10);
             this.client.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.client.MaximumSize = new System.Drawing.Size(284, 58);
@@ -233,9 +232,8 @@
             this.facture.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.facture.ForeColor = System.Drawing.Color.White;
             this.facture.Image = ((System.Drawing.Image)(resources.GetObject("facture.Image")));
-            this.facture.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.facture.ImageOffset = new System.Drawing.Point(2, 0);
-            this.facture.ImageSize = new System.Drawing.Size(40, 40);
+            this.facture.ImageSize = new System.Drawing.Size(50, 50);
             this.facture.Location = new System.Drawing.Point(723, 10);
             this.facture.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.facture.MaximumSize = new System.Drawing.Size(284, 58);

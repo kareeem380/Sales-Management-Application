@@ -68,12 +68,7 @@ namespace projet_gestion_des_ventes
 
         private void facture_Click(object sender, EventArgs e)
         {
-            factures f2 = new factures();
-            f2.AllowDrop = true;
-            f2.Show();
-            f2.BringToFront();
-
-            this.Hide();
+            
         }
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
@@ -139,12 +134,7 @@ namespace projet_gestion_des_ventes
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
-            departements f2 = new departements();
-            f2.AllowDrop = true;
-            f2.Show();
-            f2.BringToFront();
-
-            this.Hide();
+           
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
@@ -158,6 +148,36 @@ namespace projet_gestion_des_ventes
         }
 
         private void button7_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void departement_Click(object sender, EventArgs e)
+        {
+            departements f2 = new departements();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+
+            this.Hide();
+        }
+
+        private void client_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void facture_Click_1(object sender, EventArgs e)
+        {
+            factures f2 = new factures();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+
+            this.Hide();
+        }
+
+        private void button7_Click_2(object sender, EventArgs e)
         {
             this.Hide();
             FormLog f2 = new FormLog();
