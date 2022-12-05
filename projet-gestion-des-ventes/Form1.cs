@@ -1,4 +1,12 @@
 using System.Runtime.InteropServices;
+using System.Data.SqlClient;
+using System.Data;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using Guna.UI2.WinForms;
+using System.Security.Cryptography;
+using System.Windows.Forms;
+using System.Web;
+
 
 namespace projet_gestion_des_ventes
 {
@@ -7,22 +15,8 @@ namespace projet_gestion_des_ventes
         public FormLog()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.None;
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+
         }
-        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
-        private static extern IntPtr CreateRoundRectRgn
-   (
-       int nLeftRect,
-       int nTopRect,
-       int nRightRect,
-       int nBottomRect,
-       int nWidthEllipse,
-       int nHeightEllipse
-   );
-
-
-       
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -121,12 +115,46 @@ namespace projet_gestion_des_ventes
 
         private void guna2GradientTileButton1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            this.Hide();
-            dashboard f2 = new dashboard();
-            f2.AllowDrop = true;
-            f2.Show();
-            f2.BringToFront();
+
+            SqlConnection con = new SqlConnection("Data Source=MY-LAPTOP\\SQLEXPRESS;Initial Catalog=gestion-ventes;Integrated Security=True");
+         String uemail, upwd;
+
+           uemail= txtEmail.Text;
+           upwd = textPwd.Text;
+
+           if(uemail==""||upwd== "")
+           {
+               MessageBox.Show("3mer lemail w lmot de passe");
+           }
+           else {
+               con.Open();
+               SqlCommand cmd = new SqlCommand(" SELECT * From [user] WHERE email='" + txtEmail.Text + "'AND pwd='" + textPwd.Text+ "'", con);
+               DataTable dtable = new DataTable();
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                sda.Fill(dtable);
+
+
+
+               if (dtable.Rows.Count > 0)
+               {
+                   uemail = txtEmail.Text;
+                   upwd=textPwd.Text;
+                    this.Hide();
+                    dashboard f2 = new dashboard();
+                    f2.AllowDrop = true;
+                    f2.Show();
+                    f2.BringToFront();
+            }
+
+                else
+                {
+                    MessageBox.Show("Sir bhalk rak makhedamch m3ana");
+                   txtEmail.Clear();
+                    textPwd.Clear();
+                    txtEmail.Focus();
+                }
+            }
+            con.Close();    
         }
 
         private void guna2HtmlToolTip1_Popup(object sender, PopupEventArgs e)

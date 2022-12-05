@@ -1,10 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "akaAUijj8uR1hXbxaRQHZNATRD9Z6vjQEy8jYbVt/zp2OdEruJxd9WzoHA2leXcLdMkkW6IDGbHXaihzZgnXWQ==",
+  "dgSpecHash": "gvXVzBbKnt0sxPl+GRa64SA0h4YSFOYK87JDjfvemPfzhFElKR7jGmzcCG37ECAmqBKkhILew6hXYUf1N8+FFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Karim\\source\\C#\\gestion-des-ventes\\projet-gestion-des-ventes\\projet-gestion-des-ventes.csproj",
+  "projectFilePath": "C:\\Users\\Khaaoula\\Documents\\c#\\gestion-des-ventes\\projet-gestion-des-ventes\\projet-gestion-des-ventes.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Karim\\.nuget\\packages\\guna.ui2.winforms\\2.0.3.5\\guna.ui2.winforms.2.0.3.5.nupkg.sha512"
+    "C:\\Users\\Khaaoula\\.nuget\\packages\\guna.ui2.winforms\\2.0.3.5\\guna.ui2.winforms.2.0.3.5.nupkg.sha512",
+    "C:\\Users\\Khaaoula\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Khaaoula\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Khaaoula\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\Khaaoula\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Khaaoula\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Khaaoula\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Khaaoula\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
+    "C:\\Users\\Khaaoula\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Khaaoula\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": [
     {
