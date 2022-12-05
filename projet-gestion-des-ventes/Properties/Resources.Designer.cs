@@ -73,8 +73,6 @@ namespace projet_gestion_des_ventes.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
-=======
         internal static System.Drawing.Bitmap cat {
             get {
                 object obj = ResourceManager.GetObject("cat", resourceCulture);
@@ -85,7 +83,6 @@ namespace projet_gestion_des_ventes.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
->>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
         internal static System.Drawing.Bitmap categories {
             get {
                 object obj = ResourceManager.GetObject("categories", resourceCulture);
@@ -106,15 +103,9 @@ namespace projet_gestion_des_ventes.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
-        internal static System.Drawing.Bitmap clients {
-            get {
-                object obj = ResourceManager.GetObject("clients", resourceCulture);
-=======
         internal static System.Drawing.Bitmap clientss {
             get {
                 object obj = ResourceManager.GetObject("clientss", resourceCulture);
->>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

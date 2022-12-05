@@ -165,12 +165,6 @@ namespace projet_gestion_des_ventes
             this.Hide();
         }
 
-<<<<<<< HEAD
-        private void commande_Click(object sender, EventArgs e)
-        {
-
-        }
-=======
         private void facture_Click_1(object sender, EventArgs e)
         {
 
@@ -204,6 +198,5 @@ namespace projet_gestion_des_ventes
 
             this.Hide();
         }
->>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
     }
 }

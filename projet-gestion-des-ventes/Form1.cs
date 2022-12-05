@@ -122,6 +122,7 @@ namespace projet_gestion_des_ventes
         private void guna2GradientTileButton1_Click(object sender, EventArgs e)
         {
             this.Hide();
+            this.Hide();
             dashboard f2 = new dashboard();
             f2.AllowDrop = true;
             f2.Show();
