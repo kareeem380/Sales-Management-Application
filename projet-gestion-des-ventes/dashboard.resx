@@ -2396,6 +2396,8 @@
         TkSuQmCC
 </value>
   </data>
+<<<<<<< HEAD
+=======
   <data name="guna2Button6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -2687,6 +2689,7 @@
         TkSuQmCC
 </value>
   </data>
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
   <data name="guna2Button5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAVwAAAFcCAYAAACEFgYsAAAABGdBTUEAALGPC/xhBQAALbBJREFUeF7t
@@ -3092,7 +3095,11 @@
   <data name="client.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAYAAADL1t+KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+<<<<<<< HEAD
+        EQAACxEBf2RfkQAA9n1JREFUeF7svQV4HFeWNrxDu7OzvN/+yzuTmUlikNRMksx2wAGHOSaZ2XGYOZkw
+=======
         EAAACxABrSO9dQAA9n1JREFUeF7svQV4HFeWNrxDu7OzvN/+yzuTmUlikNRMksx2wAGHOSaZ2XGYOZkw
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
         84R5kjh2Ysdx4sQximXLlsxilixLZmGf/7y36tqlVomMknXe5znqVkN11YH33HPrwl8JBAKBQCAQCAQC
         gUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQ
         CAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKB
@@ -4150,7 +4157,11 @@
   <data name="facture.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+<<<<<<< HEAD
+        EQAACxEBf2RfkQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAACbASURBVHhe7d0x
+=======
         EAAACxABrSO9dQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAACbASURBVHhe7d0x
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
         j6bXed5xfwR9gwgIUhikQSJAAClyQRgxycBBIIBkkJLbmwsVqZZlCqpUsWxSLRm3u6sqBU0CqghQlQMC
         ZEkBZOEiMJRPMJljbSz69p/c4d7vPs+57vkXP9i+vDt75jnnvs6reTUzf3J1dSVJkm4ZDCVJ0mwYSpKk
         2TCUJEmzYShJkmbDUJIkzYahJEmaDUNJkjQbhpIkaTYMJUnSbBhKkqTZMJQkSbNhKEmSZsNQkiTNhqEk

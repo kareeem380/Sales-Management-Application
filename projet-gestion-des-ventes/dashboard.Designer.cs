@@ -103,7 +103,12 @@
             this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.guna2Button6.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
+            this.guna2Button6.Image = global::projet_gestion_des_ventes.Properties.Resources.dep;
+            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+=======
             this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             this.guna2Button6.ImageOffset = new System.Drawing.Point(1, 0);
             this.guna2Button6.ImageSize = new System.Drawing.Size(45, 45);
             this.guna2Button6.Location = new System.Drawing.Point(64, 10);

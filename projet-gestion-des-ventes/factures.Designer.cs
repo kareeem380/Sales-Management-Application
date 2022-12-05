@@ -60,10 +60,37 @@
             // 
             // timer1
             // 
+<<<<<<< HEAD
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(476, 624);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(328, 17);
+            this.label1.TabIndex = 19;
+            this.label1.Text = "© Copyright 2022 Techno, Inc, All Rights Reserved";
+=======
             this.timer1.Interval = 10;
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             // 
             // guna2BorderlessForm1
             // 
+<<<<<<< HEAD
+            this.guna2DateTimePicker1.BorderRadius = 15;
+            this.guna2DateTimePicker1.Checked = true;
+            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.White;
+            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(803, 9);
+            this.guna2DateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(284, 34);
+            this.guna2DateTimePicker1.TabIndex = 20;
+            this.guna2DateTimePicker1.Value = new System.DateTime(2022, 11, 27, 20, 55, 41, 231);
+=======
             this.guna2BorderlessForm1.AnimateWindow = true;
             this.guna2BorderlessForm1.BorderRadius = 15;
             this.guna2BorderlessForm1.ContainerControl = this;
@@ -116,6 +143,7 @@
             this.MenuCon.Size = new System.Drawing.Size(335, 79);
             this.MenuCon.TabIndex = 49;
             this.MenuCon.Text = "guna2ContainerControl1";
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             // 
             // sidebar
             // 
@@ -132,12 +160,22 @@
             this.sidebar.Controls.Add(this.popo);
             this.sidebar.Controls.Add(this.facture);
             this.sidebar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+<<<<<<< HEAD
+            this.sidebar.Location = new System.Drawing.Point(10, 9);
+            this.sidebar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sidebar.MaximumSize = new System.Drawing.Size(316, 632);
+            this.sidebar.MinimumSize = new System.Drawing.Size(99, 632);
+            this.sidebar.Name = "sidebar";
+            this.sidebar.Size = new System.Drawing.Size(316, 632);
+            this.sidebar.TabIndex = 21;
+=======
             this.sidebar.Location = new System.Drawing.Point(11, 12);
             this.sidebar.MaximumSize = new System.Drawing.Size(361, 843);
             this.sidebar.MinimumSize = new System.Drawing.Size(113, 843);
             this.sidebar.Name = "sidebar";
             this.sidebar.Size = new System.Drawing.Size(361, 843);
             this.sidebar.TabIndex = 38;
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             this.sidebar.Text = "guna2ContainerControl1";
             // 
             // profil
@@ -151,11 +189,12 @@
             this.profil.Controls.Add(this.textBox1);
             this.profil.Controls.Add(this.textBox8);
             this.profil.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(173)))), ((int)(((byte)(207)))));
-            this.profil.Location = new System.Drawing.Point(25, 723);
-            this.profil.MaximumSize = new System.Drawing.Size(325, 79);
-            this.profil.MinimumSize = new System.Drawing.Size(59, 79);
+            this.profil.Location = new System.Drawing.Point(22, 542);
+            this.profil.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.profil.MaximumSize = new System.Drawing.Size(284, 59);
+            this.profil.MinimumSize = new System.Drawing.Size(52, 59);
             this.profil.Name = "profil";
-            this.profil.Size = new System.Drawing.Size(325, 79);
+            this.profil.Size = new System.Drawing.Size(284, 59);
             this.profil.TabIndex = 27;
             this.profil.Text = "guna2ContainerControl1";
             // 
@@ -167,10 +206,16 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+<<<<<<< HEAD
+            this.button7.Location = new System.Drawing.Point(214, 4);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(62, 52);
+=======
             this.button7.Location = new System.Drawing.Point(245, 5);
             this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(71, 69);
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             this.button7.TabIndex = 37;
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click_2);
@@ -179,10 +224,14 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(173)))), ((int)(((byte)(207)))));
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+<<<<<<< HEAD
+            this.pictureBox2.Location = new System.Drawing.Point(3, 4);
+=======
             this.pictureBox2.Location = new System.Drawing.Point(3, 5);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(53, 65);
+            this.pictureBox2.Size = new System.Drawing.Size(46, 49);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 46;
             this.pictureBox2.TabStop = false;
@@ -193,10 +242,14 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox1.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
+            this.textBox1.Location = new System.Drawing.Point(84, 4);
+=======
             this.textBox1.Location = new System.Drawing.Point(96, 5);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(114, 29);
+            this.textBox1.Size = new System.Drawing.Size(100, 23);
             this.textBox1.TabIndex = 47;
             this.textBox1.Text = "ID : 157488";
             // 
@@ -206,22 +259,80 @@
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox8.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox8.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
+            this.textBox8.Location = new System.Drawing.Point(84, 32);
+=======
             this.textBox8.Location = new System.Drawing.Point(96, 43);
             this.textBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(126, 29);
+            this.textBox8.Size = new System.Drawing.Size(110, 23);
             this.textBox8.TabIndex = 48;
             this.textBox8.Text = "Nom : Karim";
             // 
+<<<<<<< HEAD
+            // MenuCon
+            // 
+            this.MenuCon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.MenuCon.BorderColor = System.Drawing.Color.White;
+            this.MenuCon.BorderRadius = 15;
+            this.MenuCon.BorderThickness = 1;
+            this.MenuCon.Controls.Add(this.guna2HtmlLabel1);
+            this.MenuCon.Controls.Add(this.menuButton);
+            this.MenuCon.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.MenuCon.Location = new System.Drawing.Point(10, 29);
+            this.MenuCon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MenuCon.MaximumSize = new System.Drawing.Size(293, 59);
+            this.MenuCon.MinimumSize = new System.Drawing.Size(76, 59);
+            this.MenuCon.Name = "MenuCon";
+            this.MenuCon.Size = new System.Drawing.Size(293, 59);
+            this.MenuCon.TabIndex = 27;
+            this.MenuCon.Text = "guna2ContainerControl1";
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Poppins", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.Window;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(136, 6);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(79, 48);
+            this.guna2HtmlLabel1.TabIndex = 24;
+            this.guna2HtmlLabel1.Text = "Menu";
+            // 
+            // menuButton
+            // 
+            this.menuButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.menuButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.menuButton.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.menuButton.Image = ((System.Drawing.Image)(resources.GetObject("menuButton.Image")));
+            this.menuButton.ImageOffset = new System.Drawing.Point(0, 0);
+            this.menuButton.ImageRotate = 0F;
+            this.menuButton.Location = new System.Drawing.Point(5, 6);
+            this.menuButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.menuButton.Name = "menuButton";
+            this.menuButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.menuButton.Size = new System.Drawing.Size(70, 45);
+            this.menuButton.TabIndex = 23;
+            this.menuButton.Click += new System.EventHandler(this.menuButton_Click_1);
+            // 
+=======
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             // textBox4
             // 
             this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Poppins", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox4.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox4.Location = new System.Drawing.Point(14, 808);
+            this.textBox4.Location = new System.Drawing.Point(12, 606);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox4.Name = "textBox4";
+<<<<<<< HEAD
+            this.textBox4.Size = new System.Drawing.Size(88, 16);
+=======
             this.textBox4.Size = new System.Drawing.Size(101, 20);
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             this.textBox4.TabIndex = 13;
             this.textBox4.Text = "Version 1.2.1";
             // 
@@ -240,12 +351,22 @@
             this.departement.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.departement.ImageOffset = new System.Drawing.Point(1, 0);
             this.departement.ImageSize = new System.Drawing.Size(40, 40);
+<<<<<<< HEAD
+            this.departement.Location = new System.Drawing.Point(22, 123);
+            this.departement.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.departement.MaximumSize = new System.Drawing.Size(284, 58);
+            this.departement.MinimumSize = new System.Drawing.Size(52, 58);
+            this.departement.Name = "departement";
+            this.departement.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
+            this.departement.Size = new System.Drawing.Size(284, 58);
+=======
             this.departement.Location = new System.Drawing.Point(25, 164);
             this.departement.MaximumSize = new System.Drawing.Size(325, 77);
             this.departement.MinimumSize = new System.Drawing.Size(59, 77);
             this.departement.Name = "departement";
             this.departement.Padding = new System.Windows.Forms.Padding(21, 0, 0, 0);
             this.departement.Size = new System.Drawing.Size(325, 77);
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             this.departement.TabIndex = 11;
             this.departement.Text = "         Département";
             this.departement.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -265,6 +386,16 @@
             this.commande.Image = global::projet_gestion_des_ventes.Properties.Resources.cmd;
             this.commande.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.commande.ImageOffset = new System.Drawing.Point(1, 0);
+<<<<<<< HEAD
+            this.commande.ImageSize = new System.Drawing.Size(40, 40);
+            this.commande.Location = new System.Drawing.Point(22, 186);
+            this.commande.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.commande.MaximumSize = new System.Drawing.Size(284, 58);
+            this.commande.MinimumSize = new System.Drawing.Size(52, 58);
+            this.commande.Name = "commande";
+            this.commande.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
+            this.commande.Size = new System.Drawing.Size(284, 58);
+=======
             this.commande.ImageSize = new System.Drawing.Size(35, 35);
             this.commande.Location = new System.Drawing.Point(25, 248);
             this.commande.MaximumSize = new System.Drawing.Size(325, 77);
@@ -272,9 +403,11 @@
             this.commande.Name = "commande";
             this.commande.Padding = new System.Windows.Forms.Padding(21, 0, 0, 0);
             this.commande.Size = new System.Drawing.Size(325, 77);
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             this.commande.TabIndex = 10;
             this.commande.Text = "         Commande";
             this.commande.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.commande.Click += new System.EventHandler(this.commande_Click);
             // 
             // produit
             // 
@@ -291,12 +424,22 @@
             this.produit.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.produit.ImageOffset = new System.Drawing.Point(1, 0);
             this.produit.ImageSize = new System.Drawing.Size(40, 40);
+<<<<<<< HEAD
+            this.produit.Location = new System.Drawing.Point(22, 249);
+            this.produit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.produit.MaximumSize = new System.Drawing.Size(284, 58);
+            this.produit.MinimumSize = new System.Drawing.Size(52, 58);
+            this.produit.Name = "produit";
+            this.produit.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
+            this.produit.Size = new System.Drawing.Size(284, 58);
+=======
             this.produit.Location = new System.Drawing.Point(25, 332);
             this.produit.MaximumSize = new System.Drawing.Size(325, 77);
             this.produit.MinimumSize = new System.Drawing.Size(59, 77);
             this.produit.Name = "produit";
             this.produit.Padding = new System.Windows.Forms.Padding(21, 0, 0, 0);
             this.produit.Size = new System.Drawing.Size(325, 77);
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             this.produit.TabIndex = 9;
             this.produit.Text = "         Produit";
             this.produit.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -316,18 +459,54 @@
             this.categorie.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.categorie.ImageOffset = new System.Drawing.Point(1, 0);
             this.categorie.ImageSize = new System.Drawing.Size(40, 40);
+<<<<<<< HEAD
+            this.categorie.Location = new System.Drawing.Point(22, 312);
+            this.categorie.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.categorie.MaximumSize = new System.Drawing.Size(284, 58);
+            this.categorie.MinimumSize = new System.Drawing.Size(52, 58);
+            this.categorie.Name = "categorie";
+            this.categorie.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
+            this.categorie.Size = new System.Drawing.Size(284, 58);
+=======
             this.categorie.Location = new System.Drawing.Point(25, 416);
             this.categorie.MaximumSize = new System.Drawing.Size(325, 77);
             this.categorie.MinimumSize = new System.Drawing.Size(59, 77);
             this.categorie.Name = "categorie";
             this.categorie.Padding = new System.Windows.Forms.Padding(21, 0, 0, 0);
             this.categorie.Size = new System.Drawing.Size(325, 77);
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             this.categorie.TabIndex = 8;
             this.categorie.Text = "          Catégorie";
             this.categorie.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // popo
             // 
+<<<<<<< HEAD
+            this.client.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.client.BorderRadius = 27;
+            this.client.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.client.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.client.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.client.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.client.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.client.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.client.ForeColor = System.Drawing.Color.White;
+            this.client.Image = ((System.Drawing.Image)(resources.GetObject("client.Image")));
+            this.client.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.client.ImageOffset = new System.Drawing.Point(1, 0);
+            this.client.ImageSize = new System.Drawing.Size(40, 40);
+            this.client.Location = new System.Drawing.Point(22, 375);
+            this.client.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.client.MaximumSize = new System.Drawing.Size(284, 58);
+            this.client.MinimumSize = new System.Drawing.Size(52, 58);
+            this.client.Name = "client";
+            this.client.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
+            this.client.Size = new System.Drawing.Size(284, 58);
+            this.client.TabIndex = 6;
+            this.client.Text = "         Client";
+            this.client.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.client.Click += new System.EventHandler(this.guna2Button1_Click);
+=======
             this.popo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             this.popo.BorderRadius = 27;
             this.popo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -382,6 +561,7 @@
             // guna2AnimateWindow1
             // 
             this.guna2AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_BLEND;
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             // 
             // facture
             // 
@@ -398,6 +578,48 @@
             this.facture.Image = ((System.Drawing.Image)(resources.GetObject("facture.Image")));
             this.facture.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.facture.ImageOffset = new System.Drawing.Point(2, 0);
+<<<<<<< HEAD
+            this.facture.ImageSize = new System.Drawing.Size(40, 40);
+            this.facture.Location = new System.Drawing.Point(22, 438);
+            this.facture.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.facture.MaximumSize = new System.Drawing.Size(284, 58);
+            this.facture.MinimumSize = new System.Drawing.Size(52, 58);
+            this.facture.Name = "facture";
+            this.facture.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
+            this.facture.Size = new System.Drawing.Size(284, 58);
+            this.facture.TabIndex = 7;
+            this.facture.Text = "         Facturation";
+            this.facture.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.facture.Click += new System.EventHandler(this.facture_Click);
+            // 
+            // sidebarTimer
+            // 
+            this.sidebarTimer.Interval = 10;
+            this.sidebarTimer.Tick += new System.EventHandler(this.sidebarTimer_Tick);
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.Window;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(156, 8);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(79, 48);
+            this.guna2HtmlLabel2.TabIndex = 24;
+            this.guna2HtmlLabel2.Text = "Menu";
+            // 
+            // guna2AnimateWindow1
+            // 
+            this.guna2AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_BLEND;
+            // 
+            // guna2BorderlessForm1
+            // 
+            this.guna2BorderlessForm1.AnimateWindow = true;
+            this.guna2BorderlessForm1.BorderRadius = 15;
+            this.guna2BorderlessForm1.ContainerControl = this;
+            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2BorderlessForm1.TransparentWhileDrag = true;
+=======
             this.facture.ImageSize = new System.Drawing.Size(35, 35);
             this.facture.Location = new System.Drawing.Point(25, 584);
             this.facture.MaximumSize = new System.Drawing.Size(325, 77);
@@ -409,17 +631,19 @@
             this.facture.Text = "         Facturation";
             this.facture.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.facture.Click += new System.EventHandler(this.facture_Click_1);
+>>>>>>> 139b6c3ee6e0dbe17adfa895918dc45989ed2ead
             // 
             // factures
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1255, 867);
+            this.ClientSize = new System.Drawing.Size(1098, 591);
             this.Controls.Add(this.sidebar);
             this.Controls.Add(this.guna2DateTimePicker1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "factures";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "factures";

@@ -422,7 +422,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "clients";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "produit";
+            this.Text = "git";
             this.Load += new System.EventHandler(this.produit_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.profil.ResumeLayout(false);
