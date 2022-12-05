@@ -169,5 +169,10 @@ namespace projet_gestion_des_ventes
 
             this.Hide();
         }
+
+        private void commande_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
