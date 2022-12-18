@@ -198,5 +198,98 @@ namespace projet_gestion_des_ventes
 
             this.Hide();
         }
+
+        private void produit_Click(object sender, EventArgs e)
+        {
+            produits f2 = new produits();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+            this.Hide();
+        }
+
+        private void categorie_Click(object sender, EventArgs e)
+        {
+            categories f2 = new categories();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+
+            this.Hide();
+        }
+
+        private void sidebarTimer_Tick_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuButton_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MenuCon_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sidebar_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void profil_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox8_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void commande_Click(object sender, EventArgs e)
+        {
+            commandes f2 = new commandes();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+            this.Hide();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2DateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

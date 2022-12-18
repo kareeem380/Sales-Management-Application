@@ -187,17 +187,29 @@ namespace projet_gestion_des_ventes
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-
+            categories f2 = new categories();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+            this.Hide();
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-
+            produits f2=new produits();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+            this.Hide();
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-
+            commandes f2 = new commandes();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+            this.Hide();
         }
     }
 }

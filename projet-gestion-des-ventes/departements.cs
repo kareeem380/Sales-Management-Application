@@ -186,5 +186,38 @@ namespace projet_gestion_des_ventes
         {
             sidebarTimer.Start();
         }
+
+        private void departement_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void produit_Click(object sender, EventArgs e)
+        {
+            produits f2 = new produits();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+            this.Hide();
+        }
+
+        private void categorie_Click(object sender, EventArgs e)
+        {
+            categories f2 = new categories();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+
+            this.Hide();
+        }
+
+        private void commande_Click(object sender, EventArgs e)
+        {
+            commandes f2 = new commandes();
+            f2.AllowDrop = true;
+            f2.Show();
+            f2.BringToFront();
+            this.Hide();
+        }
     }
 }

@@ -141,3 +141,6 @@ C:\Users\Khaaoula\Documents\c#\gestion-des-ventes\projet-gestion-des-ventes\bin\
 C:\Users\Khaaoula\Documents\c#\gestion-des-ventes\projet-gestion-des-ventes\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
 C:\Users\Khaaoula\Documents\c#\gestion-des-ventes\projet-gestion-des-ventes\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Khaaoula\Documents\c#\gestion-des-ventes\projet-gestion-des-ventes\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Khaaoula\Documents\c#\gestion-des-ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.produits.resources
+C:\Users\Khaaoula\Documents\c#\gestion-des-ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.categories.resources
+C:\Users\Khaaoula\Documents\c#\gestion-des-ventes\projet-gestion-des-ventes\obj\Debug\net6.0-windows\projet_gestion_des_ventes.commandes.resources
