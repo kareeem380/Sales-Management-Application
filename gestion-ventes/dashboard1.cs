@@ -101,8 +101,27 @@ namespace projet_gestion_des_ventes
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
+        { 
+           
+
+
+        }
+
+        private void dashboard1_Load(object sender, EventArgs e)
         {
 
+            if(FormLog.phot== "karim@gmail.com")
+            {
+                pictureBox3.Image = gestion_ventes.Properties.Resources.Sans_titre_modified;
+                textBox3.Text = "Nom : Karim";
+                textBox2.Text = "ID : 157488";
+            }
+            else
+            {
+                pictureBox3.Image = gestion_ventes.Properties.Resources.khaoul;
+                textBox3.Text = "Nom : Khaoula";
+                textBox2.Text = "ID : 164775";
+            }
         }
     }
 }

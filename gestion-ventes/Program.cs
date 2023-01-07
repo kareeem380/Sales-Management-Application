@@ -18,7 +18,7 @@ namespace gestion_ventes
             SetProcessDPIAware();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new dashboard1());
+            Application.Run(new FormLog());
         }
 
         [System.Runtime.InteropServices.DllImport("user32.dll")]

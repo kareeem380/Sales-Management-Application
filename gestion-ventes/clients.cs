@@ -72,6 +72,18 @@ namespace projet_gestion_des_ventes
 
         private void produit_Load(object sender, EventArgs e)
         {
+            if (FormLog.phot == "karim@gmail.com")
+            {
+                pictureBox2.Image = gestion_ventes.Properties.Resources.Sans_titre_modified;
+                textBox8.Text = "Nom : Karim";
+                textBox1.Text = "ID : 157488";
+            }
+            else
+            {
+                pictureBox2.Image = gestion_ventes.Properties.Resources.khaoul;
+                textBox8.Text = "Nom : Khaoula";
+                textBox1.Text = "ID : 164775";
+            }
             // TODO: This line of code loads data into the '_gestion_des_ventesDataSet3.commande' table. You can move, or remove it, as needed.
             this.commandeTableAdapter2.Fill(this._gestion_des_ventesDataSet3.commande);
             // TODO: This line of code loads data into the '_gestion_des_ventesDataSet.commande' table. You can move, or remove it, as needed.
@@ -250,6 +262,7 @@ namespace projet_gestion_des_ventes
             }
             else
             {
+                details.Enabled = true;
                 guna2DataGridView2.Visible = false;
                 details.Enabled = false ;
                 sidebar.Width += 10;
@@ -376,6 +389,7 @@ namespace projet_gestion_des_ventes
             num.Text = row.Cells[3].Value.ToString();
             this.id = int.Parse(row.Cells[0].Value.ToString());
             details.Enabled = true;
+
         }
 
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -406,6 +420,8 @@ namespace projet_gestion_des_ventes
                 DataTable tableClients = new DataTable();
                 da.Fill(tableClients);
                 guna2DataGridView2.DataSource = tableClients;
+                guna2DataGridView2.Columns[0].HeaderText = "Date ";
+                guna2DataGridView2.Columns[1].HeaderText = "Status ";
             }
             else
             {
@@ -422,6 +438,8 @@ namespace projet_gestion_des_ventes
                 DataTable tableClients = new DataTable();
                 da.Fill(tableClients);
                 guna2DataGridView2.DataSource = tableClients;
+                guna2DataGridView2.Columns[0].HeaderText = "Date ";
+                guna2DataGridView2.Columns[1].HeaderText = "Status ";
             }
          
             

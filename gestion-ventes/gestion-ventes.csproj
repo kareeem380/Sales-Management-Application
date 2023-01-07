@@ -187,6 +187,31 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>_gestion_des_ventesDataSet3.xsd</DependentUpon>
     </Compile>
+    <Compile Include="_gestion_des_ventesDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_gestion_des_ventesDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_gestion_des_ventesDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_gestion_des_ventesDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_gestion_des_ventesDataSet61.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_gestion_des_ventesDataSet61.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_gestion_des_ventesDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_gestion_des_ventesDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_gestion_des_ventesDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_gestion_des_ventesDataSet8.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="categories.resx">
       <DependentUpon>categories.cs</DependentUpon>
     </EmbeddedResource>
@@ -276,6 +301,61 @@
     <None Include="_gestion_des_ventesDataSet3.xss">
       <DependentUpon>_gestion_des_ventesDataSet3.xsd</DependentUpon>
     </None>
+    <None Include="_gestion_des_ventesDataSet4.xsc">
+      <DependentUpon>_gestion_des_ventesDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="_gestion_des_ventesDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_gestion_des_ventesDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_gestion_des_ventesDataSet4.xss">
+      <DependentUpon>_gestion_des_ventesDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="_gestion_des_ventesDataSet5.xsc">
+      <DependentUpon>_gestion_des_ventesDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="_gestion_des_ventesDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_gestion_des_ventesDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_gestion_des_ventesDataSet5.xss">
+      <DependentUpon>_gestion_des_ventesDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="_gestion_des_ventesDataSet61.xsc">
+      <DependentUpon>_gestion_des_ventesDataSet61.xsd</DependentUpon>
+    </None>
+    <None Include="_gestion_des_ventesDataSet61.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_gestion_des_ventesDataSet61.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_gestion_des_ventesDataSet61.xss">
+      <DependentUpon>_gestion_des_ventesDataSet61.xsd</DependentUpon>
+    </None>
+    <None Include="_gestion_des_ventesDataSet7.xsc">
+      <DependentUpon>_gestion_des_ventesDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="_gestion_des_ventesDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_gestion_des_ventesDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_gestion_des_ventesDataSet7.xss">
+      <DependentUpon>_gestion_des_ventesDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="_gestion_des_ventesDataSet8.xsc">
+      <DependentUpon>_gestion_des_ventesDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="_gestion_des_ventesDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_gestion_des_ventesDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_gestion_des_ventesDataSet8.xss">
+      <DependentUpon>_gestion_des_ventesDataSet8.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -317,9 +397,12 @@
     <Content Include="Resources\Ecommerce-14.png" />
     <None Include="Resources\notif.bmp" />
     <None Include="Resources\notif.png" />
+    <None Include="Resources\khaoul.jpg" />
     <Content Include="Resources\product.png" />
     <Content Include="Resources\quit.png" />
     <Content Include="Resources\refresh.png" />
+    <None Include="Resources\Sans titre.jpg" />
+    <None Include="Resources\Sans titre-modified.png" />
     <Content Include="Resources\update.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -38,6 +38,18 @@ namespace projet_gestion_des_ventes
 
         private void categories_Load(object sender, EventArgs e)
         {
+            if (FormLog.phot == "karim@gmail.com")
+            {
+                pictureBox2.Image = gestion_ventes.Properties.Resources.Sans_titre_modified;
+                textBox8.Text = "Nom : Karim";
+                textBox1.Text = "ID : 157488";
+            }
+            else
+            {
+                pictureBox2.Image = gestion_ventes.Properties.Resources.khaoul;
+                textBox8.Text = "Nom : Khaoula";
+                textBox1.Text = "ID : 164775";
+            }
             // TODO: This line of code loads data into the '_gestion_des_ventesDataSet1.categorie' table. You can move, or remove it, as needed.
             this.categorieTableAdapter1.Fill(this._gestion_des_ventesDataSet1.categorie);
             // TODO: This line of code loads data into the '_gestion_des_ventesDataSet1.departement' table. You can move, or remove it, as needed.

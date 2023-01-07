@@ -36,7 +36,6 @@ namespace projet_gestion_des_ventes
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.departement = new Guna.UI2.WinForms.Guna2Button();
             this.commande = new Guna.UI2.WinForms.Guna2Button();
             this.produit = new Guna.UI2.WinForms.Guna2Button();
@@ -62,12 +61,62 @@ namespace projet_gestion_des_ventes
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.commandedetailsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this._gestion_des_ventesDataSet1 = new gestion_ventes._gestion_des_ventesDataSet1();
+            this.commande_detailsTableAdapter = new gestion_ventes._gestion_des_ventesDataSet1TableAdapters.commande_detailsTableAdapter();
+            this._gestion_des_ventesDataSet5 = new gestion_ventes._gestion_des_ventesDataSet5();
+            this.commandedetailsBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.commande_detailsTableAdapter1 = new gestion_ventes._gestion_des_ventesDataSet5TableAdapters.commande_detailsTableAdapter();
+            this.guna2ContainerControl1 = new Guna.UI2.WinForms.Guna2ContainerControl();
+            this.prod = new System.Windows.Forms.ComboBox();
+            this.commandeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.gestiondesventesDataSet5BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.factureBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.factureTableAdapter = new gestion_ventes._gestion_des_ventesDataSet5TableAdapters.factureTableAdapter();
+            this.commandedetailsBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.commandedetailsBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.factureBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this._gestion_des_ventesDataSet6 = new gestion_ventes._gestion_des_ventesDataSet6();
+            this.commandedetailsBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
+            this.commande_detailsTableAdapter2 = new gestion_ventes._gestion_des_ventesDataSet6TableAdapters.commande_detailsTableAdapter();
+            this.commandedetailsBindingSource5 = new System.Windows.Forms.BindingSource(this.components);
+            this._gestion_des_ventesDataSet7 = new gestion_ventes._gestion_des_ventesDataSet7();
+            this.commandedetailsBindingSource6 = new System.Windows.Forms.BindingSource(this.components);
+            this.commande_detailsTableAdapter3 = new gestion_ventes._gestion_des_ventesDataSet7TableAdapters.commande_detailsTableAdapter();
+            this.commandeTableAdapter = new gestion_ventes._gestion_des_ventesDataSet5TableAdapters.commandeTableAdapter();
+            this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this._gestion_des_ventesDataSet8 = new gestion_ventes._gestion_des_ventesDataSet8();
+            this.commandedetailsBindingSource7 = new System.Windows.Forms.BindingSource(this.components);
+            this.commande_detailsTableAdapter4 = new gestion_ventes._gestion_des_ventesDataSet8TableAdapters.commande_detailsTableAdapter();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.MenuCon.SuspendLayout();
             this.sidebar.SuspendLayout();
             this.profil.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._gestion_des_ventesDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._gestion_des_ventesDataSet5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource1)).BeginInit();
+            this.guna2ContainerControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.commandeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gestiondesventesDataSet5BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.factureBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.factureBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._gestion_des_ventesDataSet6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._gestion_des_ventesDataSet7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._gestion_des_ventesDataSet8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource7)).BeginInit();
             this.SuspendLayout();
             // 
             // departement
@@ -224,7 +273,6 @@ namespace projet_gestion_des_ventes
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(173)))), ((int)(((byte)(207)))));
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(3, 4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(53, 52);
@@ -390,7 +438,6 @@ namespace projet_gestion_des_ventes
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(114, 29);
             this.textBox1.TabIndex = 47;
-            this.textBox1.Text = "ID : 157488";
             // 
             // textBox8
             // 
@@ -400,9 +447,8 @@ namespace projet_gestion_des_ventes
             this.textBox8.ForeColor = System.Drawing.Color.White;
             this.textBox8.Location = new System.Drawing.Point(96, 34);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(126, 29);
+            this.textBox8.Size = new System.Drawing.Size(142, 29);
             this.textBox8.TabIndex = 48;
-            this.textBox8.Text = "Nom : Karim";
             // 
             // textBox4
             // 
@@ -454,13 +500,184 @@ namespace projet_gestion_des_ventes
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
-            // guna2DataGridView1
+            // commandedetailsBindingSource
+            // 
+            this.commandedetailsBindingSource.DataMember = "commande_details";
+            this.commandedetailsBindingSource.DataSource = this._gestion_des_ventesDataSet1;
+            // 
+            // _gestion_des_ventesDataSet1
+            // 
+            this._gestion_des_ventesDataSet1.DataSetName = "_gestion_des_ventesDataSet1";
+            this._gestion_des_ventesDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // commande_detailsTableAdapter
+            // 
+            this.commande_detailsTableAdapter.ClearBeforeFill = true;
+            // 
+            // _gestion_des_ventesDataSet5
+            // 
+            this._gestion_des_ventesDataSet5.DataSetName = "_gestion_des_ventesDataSet5";
+            this._gestion_des_ventesDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // commandedetailsBindingSource1
+            // 
+            this.commandedetailsBindingSource1.DataMember = "commande_details";
+            this.commandedetailsBindingSource1.DataSource = this._gestion_des_ventesDataSet5;
+            // 
+            // commande_detailsTableAdapter1
+            // 
+            this.commande_detailsTableAdapter1.ClearBeforeFill = true;
+            // 
+            // guna2ContainerControl1
+            // 
+            this.guna2ContainerControl1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.guna2ContainerControl1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.guna2ContainerControl1.BorderRadius = 15;
+            this.guna2ContainerControl1.BorderThickness = 1;
+            this.guna2ContainerControl1.Controls.Add(this.guna2Button1);
+            this.guna2ContainerControl1.Controls.Add(this.prod);
+            this.guna2ContainerControl1.Controls.Add(this.guna2HtmlLabel7);
+            this.guna2ContainerControl1.Controls.Add(this.guna2TextBox2);
+            this.guna2ContainerControl1.Controls.Add(this.guna2HtmlLabel5);
+            this.guna2ContainerControl1.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.guna2ContainerControl1.Location = new System.Drawing.Point(513, 119);
+            this.guna2ContainerControl1.Name = "guna2ContainerControl1";
+            this.guna2ContainerControl1.Size = new System.Drawing.Size(597, 236);
+            this.guna2ContainerControl1.TabIndex = 53;
+            this.guna2ContainerControl1.Text = "guna2ContainerControl1";
+            // 
+            // prod
+            // 
+            this.prod.DataSource = this.commandeBindingSource;
+            this.prod.DisplayMember = "comd_id";
+            this.prod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.prod.FormattingEnabled = true;
+            this.prod.Location = new System.Drawing.Point(237, 116);
+            this.prod.Name = "prod";
+            this.prod.Size = new System.Drawing.Size(153, 24);
+            this.prod.TabIndex = 60;
+            this.prod.ValueMember = "prod_id";
+            this.prod.SelectedIndexChanged += new System.EventHandler(this.prod_SelectedIndexChanged);
+            // 
+            // commandeBindingSource
+            // 
+            this.commandeBindingSource.DataMember = "commande";
+            this.commandeBindingSource.DataSource = this.gestiondesventesDataSet5BindingSource;
+            // 
+            // gestiondesventesDataSet5BindingSource
+            // 
+            this.gestiondesventesDataSet5BindingSource.DataSource = this._gestion_des_ventesDataSet5;
+            this.gestiondesventesDataSet5BindingSource.Position = 0;
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Poppins Medium", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(224, 69);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(140, 34);
+            this.guna2HtmlLabel7.TabIndex = 59;
+            this.guna2HtmlLabel7.Text = "ID Commande";
+            this.guna2HtmlLabel7.Click += new System.EventHandler(this.guna2HtmlLabel7_Click);
+            // 
+            // guna2TextBox2
+            // 
+            this.guna2TextBox2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.guna2TextBox2.BorderRadius = 9;
+            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox2.DefaultText = "";
+            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.Location = new System.Drawing.Point(224, 110);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox2.Name = "guna2TextBox2";
+            this.guna2TextBox2.PasswordChar = '\0';
+            this.guna2TextBox2.PlaceholderText = "";
+            this.guna2TextBox2.SelectedText = "";
+            this.guna2TextBox2.Size = new System.Drawing.Size(196, 36);
+            this.guna2TextBox2.TabIndex = 58;
+            // 
+            // guna2HtmlLabel5
+            // 
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Poppins Medium", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(224, 14);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(180, 36);
+            this.guna2HtmlLabel5.TabIndex = 51;
+            this.guna2HtmlLabel5.Text = "IMPRIMER FACTURE";
+            // 
+            // factureBindingSource
+            // 
+            this.factureBindingSource.DataMember = "facture";
+            this.factureBindingSource.DataSource = this._gestion_des_ventesDataSet5;
+            // 
+            // factureTableAdapter
+            // 
+            this.factureTableAdapter.ClearBeforeFill = true;
+            // 
+            // commandedetailsBindingSource2
+            // 
+            this.commandedetailsBindingSource2.DataMember = "commande_details";
+            this.commandedetailsBindingSource2.DataSource = this._gestion_des_ventesDataSet5;
+            // 
+            // commandedetailsBindingSource3
+            // 
+            this.commandedetailsBindingSource3.DataMember = "commande_details";
+            this.commandedetailsBindingSource3.DataSource = this._gestion_des_ventesDataSet5;
+            // 
+            // factureBindingSource1
+            // 
+            this.factureBindingSource1.DataMember = "facture";
+            this.factureBindingSource1.DataSource = this.gestiondesventesDataSet5BindingSource;
+            // 
+            // _gestion_des_ventesDataSet6
+            // 
+            this._gestion_des_ventesDataSet6.DataSetName = "_gestion_des_ventesDataSet6";
+            this._gestion_des_ventesDataSet6.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // commandedetailsBindingSource4
+            // 
+            this.commandedetailsBindingSource4.DataMember = "commande_details";
+            this.commandedetailsBindingSource4.DataSource = this._gestion_des_ventesDataSet6;
+            // 
+            // commande_detailsTableAdapter2
+            // 
+            this.commande_detailsTableAdapter2.ClearBeforeFill = true;
+            // 
+            // commandedetailsBindingSource5
+            // 
+            this.commandedetailsBindingSource5.DataMember = "commande_details";
+            this.commandedetailsBindingSource5.DataSource = this._gestion_des_ventesDataSet6;
+            // 
+            // _gestion_des_ventesDataSet7
+            // 
+            this._gestion_des_ventesDataSet7.DataSetName = "_gestion_des_ventesDataSet7";
+            this._gestion_des_ventesDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // commandedetailsBindingSource6
+            // 
+            this.commandedetailsBindingSource6.DataMember = "commande_details";
+            this.commandedetailsBindingSource6.DataSource = this._gestion_des_ventesDataSet7;
+            // 
+            // commande_detailsTableAdapter3
+            // 
+            this.commande_detailsTableAdapter3.ClearBeforeFill = true;
+            // 
+            // commandeTableAdapter
+            // 
+            this.commandeTableAdapter.ClearBeforeFill = true;
+            // 
+            // guna2DataGridView2
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
-            this.guna2DataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.guna2DataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Poppins", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -468,59 +685,101 @@ namespace projet_gestion_des_ventes
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeight = 30;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.guna2DataGridView2.ColumnHeadersHeight = 30;
+            this.guna2DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(592, 103);
-            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
+            this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle3;
+            this.guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView2.Location = new System.Drawing.Point(451, 411);
+            this.guna2DataGridView2.Name = "guna2DataGridView2";
+            this.guna2DataGridView2.RowHeadersVisible = false;
+            this.guna2DataGridView2.RowHeadersWidth = 51;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Poppins", 9F);
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.RowHeadersWidth = 51;
-            this.guna2DataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle5;
-            this.guna2DataGridView1.RowTemplate.Height = 29;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(502, 303);
-            this.guna2DataGridView1.TabIndex = 50;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.SystemColors.Window;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Poppins", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 30;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 29;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2DataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.guna2DataGridView2.RowTemplate.Height = 24;
+            this.guna2DataGridView2.Size = new System.Drawing.Size(733, 244);
+            this.guna2DataGridView2.TabIndex = 63;
+            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.guna2DataGridView2.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView2.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView2.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.guna2DataGridView2.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2DataGridView2.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.guna2DataGridView2.ThemeStyle.HeaderStyle.Height = 30;
+            this.guna2DataGridView2.ThemeStyle.ReadOnly = false;
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.Height = 24;
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2DataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView2_CellContentClick);
+            // 
+            // _gestion_des_ventesDataSet8
+            // 
+            this._gestion_des_ventesDataSet8.DataSetName = "_gestion_des_ventesDataSet8";
+            this._gestion_des_ventesDataSet8.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // commandedetailsBindingSource7
+            // 
+            this.commandedetailsBindingSource7.DataMember = "commande_details";
+            this.commandedetailsBindingSource7.DataSource = this._gestion_des_ventesDataSet8;
+            // 
+            // commande_detailsTableAdapter4
+            // 
+            this.commande_detailsTableAdapter4.ClearBeforeFill = true;
+            // 
+            // printPreviewDialog1
+            // 
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
+            this.printPreviewDialog1.Load += new System.EventHandler(this.printPreviewDialog1_Load_1);
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.guna2Button1.BorderRadius = 15;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(249, 175);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(141, 45);
+            this.guna2Button1.TabIndex = 64;
+            this.guna2Button1.Text = "Imprimer";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_2);
             // 
             // factures
             // 
@@ -528,7 +787,8 @@ namespace projet_gestion_des_ventes
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1255, 867);
-            this.Controls.Add(this.guna2DataGridView1);
+            this.Controls.Add(this.guna2DataGridView2);
+            this.Controls.Add(this.guna2ContainerControl1);
             this.Controls.Add(this.sidebar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2DateTimePicker1);
@@ -545,7 +805,26 @@ namespace projet_gestion_des_ventes
             this.sidebar.PerformLayout();
             this.profil.ResumeLayout(false);
             this.profil.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._gestion_des_ventesDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._gestion_des_ventesDataSet5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource1)).EndInit();
+            this.guna2ContainerControl1.ResumeLayout(false);
+            this.guna2ContainerControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.commandeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gestiondesventesDataSet5BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.factureBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.factureBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._gestion_des_ventesDataSet6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._gestion_des_ventesDataSet7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._gestion_des_ventesDataSet8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.commandedetailsBindingSource7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -579,6 +858,38 @@ namespace projet_gestion_des_ventes
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private gestion_ventes._gestion_des_ventesDataSet1 _gestion_des_ventesDataSet1;
+        private BindingSource commandedetailsBindingSource;
+        private gestion_ventes._gestion_des_ventesDataSet1TableAdapters.commande_detailsTableAdapter commande_detailsTableAdapter;
+        private gestion_ventes._gestion_des_ventesDataSet5 _gestion_des_ventesDataSet5;
+        private BindingSource commandedetailsBindingSource1;
+        private gestion_ventes._gestion_des_ventesDataSet5TableAdapters.commande_detailsTableAdapter commande_detailsTableAdapter1;
+        private Guna.UI2.WinForms.Guna2ContainerControl guna2ContainerControl1;
+        private ComboBox prod;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
+        private BindingSource factureBindingSource;
+        private gestion_ventes._gestion_des_ventesDataSet5TableAdapters.factureTableAdapter factureTableAdapter;
+        private BindingSource commandedetailsBindingSource2;
+        private BindingSource factureBindingSource1;
+        private BindingSource gestiondesventesDataSet5BindingSource;
+        private BindingSource commandedetailsBindingSource3;
+        private gestion_ventes._gestion_des_ventesDataSet6 _gestion_des_ventesDataSet6;
+        private BindingSource commandedetailsBindingSource4;
+        private gestion_ventes._gestion_des_ventesDataSet6TableAdapters.commande_detailsTableAdapter commande_detailsTableAdapter2;
+        private BindingSource commandedetailsBindingSource5;
+        private gestion_ventes._gestion_des_ventesDataSet7 _gestion_des_ventesDataSet7;
+        private BindingSource commandedetailsBindingSource6;
+        private gestion_ventes._gestion_des_ventesDataSet7TableAdapters.commande_detailsTableAdapter commande_detailsTableAdapter3;
+        private BindingSource commandeBindingSource;
+        private gestion_ventes._gestion_des_ventesDataSet5TableAdapters.commandeTableAdapter commandeTableAdapter;
+        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView2;
+        private gestion_ventes._gestion_des_ventesDataSet8 _gestion_des_ventesDataSet8;
+        private BindingSource commandedetailsBindingSource7;
+        private gestion_ventes._gestion_des_ventesDataSet8TableAdapters.commande_detailsTableAdapter commande_detailsTableAdapter4;
+        private PrintPreviewDialog printPreviewDialog1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

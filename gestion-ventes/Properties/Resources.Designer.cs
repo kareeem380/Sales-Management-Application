@@ -143,6 +143,16 @@ namespace gestion_ventes.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap khaoul {
+            get {
+                object obj = ResourceManager.GetObject("khaoul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap notif {
             get {
                 object obj = ResourceManager.GetObject("notif", resourceCulture);
@@ -176,6 +186,16 @@ namespace gestion_ventes.Properties {
         internal static System.Drawing.Bitmap refresh {
             get {
                 object obj = ResourceManager.GetObject("refresh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sans_titre_modified {
+            get {
+                object obj = ResourceManager.GetObject("Sans_titre_modified", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

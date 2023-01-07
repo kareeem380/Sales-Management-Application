@@ -33,25 +33,25 @@ namespace projet_gestion_des_ventes
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashboard1));
             this.guna2ContainerControl1 = new Guna.UI2.WinForms.Guna2ContainerControl();
+            this.label1 = new System.Windows.Forms.Label();
+            this.profil = new Guna.UI2.WinForms.Guna2ContainerControl();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.client = new Guna.UI2.WinForms.Guna2Button();
             this.facture = new Guna.UI2.WinForms.Guna2Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.profil = new Guna.UI2.WinForms.Guna2ContainerControl();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
-            this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2ContainerControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.profil.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,6 +72,73 @@ namespace projet_gestion_des_ventes
             this.guna2ContainerControl1.Size = new System.Drawing.Size(1255, 208);
             this.guna2ContainerControl1.TabIndex = 50;
             this.guna2ContainerControl1.Text = "guna2ContainerControl1";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label1.Location = new System.Drawing.Point(522, 836);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(386, 20);
+            this.label1.TabIndex = 49;
+            this.label1.Text = "© Copyright 2022 Techno, Inc, All Rights Reserved";
+            // 
+            // profil
+            // 
+            this.profil.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.profil.BorderColor = System.Drawing.SystemColors.Window;
+            this.profil.BorderRadius = 15;
+            this.profil.BorderThickness = 1;
+            this.profil.Controls.Add(this.button1);
+            this.profil.Controls.Add(this.pictureBox3);
+            this.profil.Controls.Add(this.textBox2);
+            this.profil.Controls.Add(this.textBox3);
+            this.profil.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.profil.Location = new System.Drawing.Point(12, 793);
+            this.profil.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.profil.MaximumSize = new System.Drawing.Size(325, 63);
+            this.profil.MinimumSize = new System.Drawing.Size(59, 63);
+            this.profil.Name = "profil";
+            this.profil.Size = new System.Drawing.Size(325, 63);
+            this.profil.TabIndex = 51;
+            this.profil.Text = "guna2ContainerControl1";
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold);
+            this.textBox2.ForeColor = System.Drawing.Color.White;
+            this.textBox2.Location = new System.Drawing.Point(96, 4);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(114, 29);
+            this.textBox2.TabIndex = 47;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold);
+            this.textBox3.ForeColor = System.Drawing.Color.White;
+            this.textBox3.Location = new System.Drawing.Point(96, 32);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(143, 29);
+            this.textBox3.TabIndex = 48;
+            // 
+            // guna2BorderlessForm1
+            // 
+            this.guna2BorderlessForm1.AnimateWindow = true;
+            this.guna2BorderlessForm1.AnimationType = Guna.UI2.WinForms.Guna2BorderlessForm.G2402080114300C350C1C0D2412390C1404.G243B3E2E39012726;
+            this.guna2BorderlessForm1.BorderRadius = 15;
+            this.guna2BorderlessForm1.ContainerControl = this;
+            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2BorderlessForm1.TransparentWhileDrag = true;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // guna2Button6
             // 
@@ -221,17 +288,6 @@ namespace projet_gestion_des_ventes
             this.facture.Text = "Facturation";
             this.facture.Click += new System.EventHandler(this.facture_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label1.Location = new System.Drawing.Point(522, 836);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(386, 20);
-            this.label1.TabIndex = 49;
-            this.label1.Text = "© Copyright 2022 Techno, Inc, All Rights Reserved";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -241,26 +297,6 @@ namespace projet_gestion_des_ventes
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 48;
             this.pictureBox1.TabStop = false;
-            // 
-            // profil
-            // 
-            this.profil.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.profil.BorderColor = System.Drawing.SystemColors.Window;
-            this.profil.BorderRadius = 15;
-            this.profil.BorderThickness = 1;
-            this.profil.Controls.Add(this.button1);
-            this.profil.Controls.Add(this.pictureBox3);
-            this.profil.Controls.Add(this.textBox2);
-            this.profil.Controls.Add(this.textBox3);
-            this.profil.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
-            this.profil.Location = new System.Drawing.Point(12, 793);
-            this.profil.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.profil.MaximumSize = new System.Drawing.Size(325, 63);
-            this.profil.MinimumSize = new System.Drawing.Size(59, 63);
-            this.profil.Name = "profil";
-            this.profil.Size = new System.Drawing.Size(325, 63);
-            this.profil.TabIndex = 51;
-            this.profil.Text = "guna2ContainerControl1";
             // 
             // button1
             // 
@@ -280,7 +316,6 @@ namespace projet_gestion_des_ventes
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(8, 4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(53, 52);
@@ -288,44 +323,6 @@ namespace projet_gestion_des_ventes
             this.pictureBox3.TabIndex = 46;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold);
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(96, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(114, 29);
-            this.textBox2.TabIndex = 47;
-            this.textBox2.Text = "ID : 157488";
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(120)))), ((int)(((byte)(174)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold);
-            this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(96, 32);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(126, 29);
-            this.textBox3.TabIndex = 48;
-            this.textBox3.Text = "Nom : Karim";
-            // 
-            // guna2BorderlessForm1
-            // 
-            this.guna2BorderlessForm1.AnimateWindow = true;
-            this.guna2BorderlessForm1.AnimationType = Guna.UI2.WinForms.Guna2BorderlessForm.G2402080114300C350C1C0D2412390C1404.G243B3E2E39012726;
-            this.guna2BorderlessForm1.BorderRadius = 15;
-            this.guna2BorderlessForm1.ContainerControl = this;
-            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2BorderlessForm1.TransparentWhileDrag = true;
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // dashboard1
             // 
@@ -342,10 +339,11 @@ namespace projet_gestion_des_ventes
             this.Name = "dashboard1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "dashboard1";
+            this.Load += new System.EventHandler(this.dashboard1_Load);
             this.guna2ContainerControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.profil.ResumeLayout(false);
             this.profil.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

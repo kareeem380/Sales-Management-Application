@@ -13,6 +13,8 @@ namespace projet_gestion_des_ventes
 {
     public partial class FormLog : Form
     {
+        public static string phot;
+        
         public FormLog()
         {
 
@@ -143,7 +145,7 @@ namespace projet_gestion_des_ventes
                {
                    uemail = txtEmail.Text;
                    upwd=textPwd.Text;
-
+                    phot = txtEmail.Text;
                     this.Hide();
                     spinners sp = new spinners();
                     sp.Show();

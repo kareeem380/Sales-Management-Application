@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Tulpep.NotificationWindow;
 using Xamarin.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using Point = System.Drawing.Point;
 
 namespace projet_gestion_des_ventes
@@ -39,6 +40,20 @@ namespace projet_gestion_des_ventes
 
         private void commandes_Load(object sender, EventArgs e)
         {
+            if (FormLog.phot == "karim@gmail.com")
+            {
+                pictureBox2.Image = gestion_ventes.Properties.Resources.Sans_titre_modified;
+                textBox8.Text = "Nom : Karim";
+                textBox1.Text = "ID : 157488";
+            }
+            else
+            {
+                pictureBox2.Image = gestion_ventes.Properties.Resources.khaoul;
+                textBox8.Text = "Nom : Khaoula";
+                textBox1.Text = "ID : 164775";
+            }
+            // TODO: This line of code loads data into the '_gestion_des_ventesDataSet1.produit' table. You can move, or remove it, as needed.
+            this.produitTableAdapter.Fill(this._gestion_des_ventesDataSet1.produit);
             // TODO: This line of code loads data into the '_gestion_des_ventesDataSet1.commande' table. You can move, or remove it, as needed.
             this.commandeTableAdapter.Fill(this._gestion_des_ventesDataSet1.commande);
             // TODO: This line of code loads data into the '_gestion_des_ventesDataSet1.client' table. You can move, or remove it, as needed.
@@ -173,10 +188,12 @@ namespace projet_gestion_des_ventes
                 facture.Width = -10;
                 if ((sidebar.Width == sidebar.MinimumSize.Width) && (MenuCon.Width == MenuCon.MinimumSize.Width) && (popo.Width == popo.MinimumSize.Width) && (profil.Width == profil.MinimumSize.Width) && (facture.Width == facture.MinimumSize.Width))
                 {
-                    guna2DataGridView1.Location = new Point(this.guna2DataGridView1.Location.X, 384);
-                    guna2DataGridView1.Location = new Point(this.guna2DataGridView1.Location.Y, 89);
-                    guna2ContainerControl1.Location = new Point(this.guna2ContainerControl1.Location.X, 384);
+                    guna2DataGridView1.Location = new Point(this.guna2DataGridView1.Location.X, 396);
+                    guna2DataGridView1.Location = new Point(this.guna2DataGridView1.Location.Y, 97);
+                    guna2ContainerControl1.Location = new Point(this.guna2ContainerControl1.Location.X, 354);
                     guna2ContainerControl1.Location = new Point(this.guna2ContainerControl1.Location.Y, 425);
+
+              
 
                     sidebarExpand = false;
                     sidebarTimer.Stop();
@@ -185,6 +202,9 @@ namespace projet_gestion_des_ventes
             }
             else
             {
+                
+                AddProd.Enabled = false;
+                
                 sidebar.Width += 10;
                 profil.Width += 10;
                 MenuCon.Width += 10;
@@ -194,10 +214,12 @@ namespace projet_gestion_des_ventes
                 categorie.Width += 10;
                 departement.Width += 10;
                 facture.Width += 10;
-                guna2DataGridView1.Location = new Point(this.guna2DataGridView1.Location.X, 517);
-                guna2DataGridView1.Location = new Point(this.guna2DataGridView1.Location.Y, 89);
-                guna2ContainerControl1.Location = new Point(this.guna2ContainerControl1.Location.X, 517);
+                guna2DataGridView1.Location = new Point(this.guna2DataGridView1.Location.X, 509);
+                guna2DataGridView1.Location = new Point(this.guna2DataGridView1.Location.Y, 97);
+                guna2ContainerControl1.Location = new Point(this.guna2ContainerControl1.Location.X, 467);
                 guna2ContainerControl1.Location = new Point(this.guna2ContainerControl1.Location.Y, 425);
+
+
 
                 if ((sidebar.Width == sidebar.MaximumSize.Width) && (MenuCon.Width == MenuCon.MaximumSize.Width) && (popo.Width == popo.MaximumSize.Width) && (profil.Width == produit.MaximumSize.Width) && (commande.Width == commande.MaximumSize.Width) && (categorie.Width == categorie.MaximumSize.Width) && (departement.Width == departement.MaximumSize.Width) && (produit.Width == produit.MaximumSize.Width) && (facture.Width == facture.MaximumSize.Width))
                 {
@@ -269,11 +291,16 @@ namespace projet_gestion_des_ventes
 
                 con.Open();
                 SqlCommand cmd = new SqlCommand("INSERT INTO [dbo].[commande] values (@comd_date,@comd_status,@client_id)", con);
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
+            SqlCommand cmd1 = new SqlCommand("INSERT INTO [dbo].[commande_details] values (@comd_id,@prod_id,@prod_quantity,@prod_price)", con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            cmd1.Parameters.AddWithValue("@comd_id", this.id);
+            cmd1.Parameters.AddWithValue("@prod_id", prod.SelectedValue);
+                cmd1.Parameters.AddWithValue("@prod_quantity", quantite.Text);
                 cmd.Parameters.AddWithValue("@client_id", client.SelectedValue);
                 cmd.Parameters.AddWithValue("@comd_status", status.Text);
                 cmd.Parameters.AddWithValue("@comd_date", datec.Value);
-            cmd.ExecuteNonQuery();
+                cmd.ExecuteNonQuery();
+
                 con.Close();
                 MessageBox.Show("Insersion effectuée");
                 this.actualiser();
@@ -292,6 +319,9 @@ namespace projet_gestion_des_ventes
             status.Text = row.Cells[2].Value.ToString();
             client.Text = row.Cells[3].Value.ToString();
             this.id = row.Cells[0].Value.ToString();
+            prod.Enabled = true;
+            AddProd.Enabled = true;
+            quantite.Enabled = true;
         }
 
         private void guna2DataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -320,25 +350,96 @@ namespace projet_gestion_des_ventes
 
         private void modifier_Click(object sender, EventArgs e)
         {
+            
+            
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddProd_Click(object sender, EventArgs e)
+        {
+            int r;
+            
+            string connectionstring = "Data Source=DESKTOP-JBLMVJ1;Initial Catalog=gestion-des-ventes;Integrated Security=True";
+
+                    using (SqlConnection conn = new SqlConnection(connectionstring))
+            {
+                conn.Open();
+                SqlCommand cmd2 = new SqlCommand("SELECT [prod_price] FROM [gestion-des-ventes].[dbo].[produit] where prod_id=@prod_id", conn);
+                cmd2.Parameters.AddWithValue("@prod_id", prod.SelectedValue);
+                object result = cmd2.ExecuteScalar();
+                r= (int)result;
+                conn.Close();
+            }
+
+
+
             SqlConnection con = new SqlConnection("Data Source=DESKTOP-JBLMVJ1;Initial Catalog=gestion-des-ventes;Integrated Security=True");
 
-            if (status.Text == "" || client.Text == "")
-            {
-                MessageBox.Show("Veuillez remplir les champs !!");
-            }
-            else
-            {
 
-                
-                con.Open();
-                SqlCommand cmd = new SqlCommand("UPDATE [dbo].[commande] SET client_id = @client_id, comd_status = @comd_status, comd_date = @comd_date WHERE comd_id = @comd_id", con);
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                cmd.Parameters.AddWithValue("@client_id", client.SelectedValue);
-                cmd.Parameters.AddWithValue("@comd_status", status.Text);
-                cmd.Parameters.AddWithValue("@comd_date", datec.Value);
-                cmd.Parameters.AddWithValue("@comd_id", this.id);
 
-            }
+
+            con.Open();
+            float total = r * (int.Parse(quantite.Text));
+            SqlCommand cmd = new SqlCommand("INSERT INTO [dbo].[commande_details] values (@comd_id,@prod_id,@prod_quantity,@prod_price,@ttp)", con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            cmd.Parameters.AddWithValue("@comd_id", this.id);
+            cmd.Parameters.AddWithValue("@prod_id", prod.SelectedValue);
+            cmd.Parameters.AddWithValue("@prod_quantity", quantite.Text);
+            cmd.Parameters.AddWithValue("@prod_price", r);
+            cmd.Parameters.AddWithValue("@ttp", total);
+            cmd.ExecuteNonQuery();
+            con.Close();
+
+            // Enable IDENTITY_INSERT
+            //cmd.CommandText = "SET IDENTITY_INSERT dbo.commande_details ON";
+            //cmd.ExecuteNonQuery();
+            
+            // Insert row
+            
+            
+
+            
+
+            // Disable IDENTITY_INSERT
+            //cmd.CommandText = "SET IDENTITY_INSERT dbo.commande_details OFF";
+            //cmd.ExecuteNonQuery();
+            
+      
+            MessageBox.Show("Produit ajouté à la commande");
+
+
+
+            
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+
+            SqlConnection con = new SqlConnection("Data Source=DESKTOP-JBLMVJ1;Initial Catalog=gestion-des-ventes;Integrated Security=True");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("UPDATE [dbo].[commande] SET client_id = @client_id, comd_status = @comd_status, comd_date = @comd_date WHERE comd_id = @comd_id", con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            cmd.Parameters.AddWithValue("@client_id", client.SelectedValue);
+            cmd.Parameters.AddWithValue("@comd_status", status.Text);
+            cmd.Parameters.AddWithValue("@comd_date", datec.Value);
+            cmd.Parameters.AddWithValue("@comd_id", this.id);
+            cmd.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Insersion effectuée");
+            this.actualiser();
+
+
+
+
+
+
+
+
         }
     }
 }
